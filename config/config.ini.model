@@ -1,0 +1,28 @@
+[training]
+trainable = True
+
+[data]
+data_dir = E:/data/
+
+[pretrained_models]
+pretrained_models_dir = E:/pre_trained_model/
+
+[feature_table]
+tbl_exp01 = feature_exp01
+
+[database]
+db_path = E:/database/avec.db 
+tbl_training_set = train
+tbl_develop_set = develop
+tbl_test_set = test
+tbl_exp1_fea = exp1_fea
+tbl_exp2_audio_fea = exp2_audio_fea
+tbl_exp1_head_fea = exp1_head_fea
+tbl_exp1_face_fea = exp1_face_fea
+
+tbl_exp3_audio_fea =exp3_audio_fea
+tbl_exp3_vedio_fea =exp3_vedio_fea
+tbl_exp3_text_fea =exp3_text_fea
+tbl_exp3_hog_fea =exp3_hog_fea
+
+tbl_train_ros_set = train_ros
