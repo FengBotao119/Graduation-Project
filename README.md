@@ -15,17 +15,14 @@ This project is based on the audio/vedio emotion competition.
 
 ### VIDEO
 
-- I'm going to use OpenFace to extract face landmarks to train a model which can capture people's expression
-
-- [Real-world Affective Faces Database](http://www.whdeng.cn/RAF/model1.html)
-
+- I'm going to use [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) to extract face landmarks to train a model which can capture people's expression
 - [Expression in-the-Wild (ExpW) Dataset](http://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html)
 
-  
+![pic1](/Users/andrew/Desktop/Script/Graduation-Project/img/pic1.jpg)
 
 ### AUDIO
 
-
+- 
 
 ## Reference
 
