@@ -50,7 +50,7 @@ class WordAttention(nn.Module):
                                          batch_first=True)
         #(n_words, emb_size), bw is the effective batch size at each word-timestep
 
-        (words, _, _, _), _ = self.word_rnn(pack)  # (n_words, 2 * word_rnn_size), (max(sent_lens))
+        (words, _, _, _), _ = self.word_rnn(pack)  # words.shape = n_words*2*rnn_size
 
         # Find attention vectors by applying the attention linear layer
         att_w = self.word_attention(words)  # (n_words, att_size)
@@ -59,12 +59,12 @@ class WordAttention(nn.Module):
         # Take the dot-product of the attention vectors with the context vector (i.e. parameter of linear layer)
         att_w = self.word_context_vector(att_w).squeeze(1)  # (n_words)
 
-        max_value = att_w.max()  
-        att_w = torch.exp(att_w - max_value)  # (n_words)
+        max_value = att_w.max()  #多了一步去最大值
+        att_w = torch.exp(att_w - max_value)  # (n_words) 去指数计算
 
         # Re-arrange as sentences by re-padding with 0s (WORDS -> SENTENCES)
         att_w, _ = pad_packed_sequence(PackedSequence(att_w, bw), batch_first=True)
-        # (n_sentences, max_sent_len_in_batch)
+        # (n_sentences, max_sent_len_in_batch) 填充0
 
         # Calculate softmax values
         word_alphas = att_w / torch.sum(att_w, dim=1, keepdim=True)
