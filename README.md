@@ -29,9 +29,7 @@ This project is based on the audio/vedio emotion competition.
 
 * **OpenFace 2.0: Facial Behavior Analysis Toolkit** Tadas Baltrušaitis, Amir Zadeh, Yao Chong Lim, and Louis-Philippe Morency, *IEEE International Conference on Automatic Face and Gesture Recognition*, 2018
 
-* Munasinghe M. Facial expression recognition using facial landmarks and random forest classifier[C]//2018 IEEE/ACIS 17th International Conference on Computer and Information Science (ICIS). IEEE, 2018: 423-427.
-
-  
+* Fabian Benitez-Quiroz C, Srinivasan R, Martinez A M. Emotionet: An accurate, real-time algorithm for the automatic annotation of a million facial expressions in the wild[C]//Proceedings of the IEEE conference on computer vision and pattern recognition. 2016: 5562-5570.
 
 
 
