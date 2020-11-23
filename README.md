@@ -20,6 +20,7 @@ This project is based on the audio/vedio emotion competition.
 ### VIDEO
 
 - I'm going to use [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) to extract face landmarks to train a model which can capture people's expression
+- [AUS](https://www.cs.cmu.edu/~face/facs.htm)
 - [Expression in-the-Wild (ExpW) Dataset](http://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html)
 
 ![](/pic1.jpg)
