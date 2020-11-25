@@ -1,6 +1,7 @@
 data/*
 result/*
+face_model/data/
 tools/
 .DS_Store
-.ipynb_checkpoints/
-__pycache__/
+.ipynb_checkpoints/*
+__pycache__/*
