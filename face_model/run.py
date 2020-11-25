@@ -1,10 +1,11 @@
 from sklearn.datasets import load_iris
 from models import Model
 
+"""
+
+"""
+
 def Train(model,X,Y,n_folds,out_dir,file_name):
-    """model: ["svm","nn","GBDT","xgboost","lightGBM"]
-       strategy: ["OVR","OVO","ECOC"]
-    """
     model.gridsearch(X,Y,n_folds)
     model.save(out_dir,file_name)
     return model,model.get_best_param,model.get_best_score
