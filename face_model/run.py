@@ -13,15 +13,27 @@ def Train(model,X,Y,n_folds,out_dir,file_name):
 def Evaluate(model,X,Y):
     return model.evaluate(X,Y)
 
+for data in datas:
+    best_result = float('inf')
+    for model in models:
+        model.gridsearch()
+        result = model.evaluate()
+        if result<best_result:
+            best_model = model
+    best_model.save()
 
-model = Model('logistic')
+def predict():
+    pass
 
-Data = load_iris()
-X = Data.data[:100]
-Y = Data.target[:100]
 
-model,best_param,best_score = Train(model,X,Y,5,'./face_model',"svm.model")
-print(best_param,best_score)
+# model = Model('logistic')
 
-print(Evaluate(model,X,Y))
+# Data = load_iris()
+# X = Data.data[:100]
+# Y = Data.target[:100]
+
+# model,best_param,best_score = Train(model,X,Y,5,'./face_model',"svm.model")
+# print(best_param,best_score)
+
+# print(Evaluate(model,X,Y))
 

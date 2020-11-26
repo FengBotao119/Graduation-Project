@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import joblib
 import os
-from model_config import models
+from model_config import MODELS
 from abc import ABC,abstractmethod
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.multiclass import OneVsOneClassifier,OneVsRestClassifier
@@ -26,7 +26,7 @@ class ModelBase:
         pass
 
 class Model(ModelBase):
-    _models = models
+    _models = MODELS
 
     def __init__(self,model_name):
         self._model,self.param_grid = self._models[model_name]
