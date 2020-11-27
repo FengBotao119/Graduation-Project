@@ -33,7 +33,7 @@ class Model(ModelBase):
 
     def gridsearch(self,X,Y,n_folds):
         self._model = GridSearchCV(estimator=self._model,param_grid=self.param_grid,cv=n_folds,\
-                                   scoring =("accuracy","recall","precision","f1") ,refit="accuracy",n_jobs=-1)
+                                   scoring =("accuracy","recall","precision","f1") ,refit="f1",n_jobs=-1)
         self._model.fit(X,Y)
 
     def evaluate(self,X,Y):
