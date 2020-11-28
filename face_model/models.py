@@ -73,16 +73,31 @@ class Xgboost(ModelBase):
 
 class Randomforest(ModelBase):
     def __init__(self):
-        pass
+        self.model_name = 'randomforest'
+        self._model,self.param_grid = MODELS[self.model_name]
 
-    def gridsearch(self):
-        pass
+    def gridsearch(self,X,Y,n_folds):
+        self._model = GridSearchCV(estimator=self._model,param_grid=self.param_grid,cv=n_folds,\
+                                   scoring = "roc_auc", refit="roc_auc",n_jobs=-1)
+        self._model.fit(X,Y)
 
-    def predict(self):
-        pass
+    def predict(self,X):
+        return self._model.predict_proba(X)[:,1]
 
-    def evaluate(self):
-        pass
+    def evaluate(self,X,Y):
+        pre = self.predict(X)
+        return roc_auc_score(Y,pre)
+
+    def save(self,out_dir,file_name):
+        joblib.dump(self._model,os.path.join(out_dir,file_name))
+
+    @property
+    def get_best_param(self):
+        return self._model.best_params_
+    
+    @property
+    def get_best_score(self):
+        return self._model.best_score_
 
 
 class NN(ModelBase):

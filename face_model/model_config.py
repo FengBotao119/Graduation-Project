@@ -1,15 +1,11 @@
 from sklearn.svm import SVC
-from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+
+MODELS = {"svm":(SVC(probability=True,random_state=123),{'kernel':['linear','poly','rbf','sigmoid'], 'C':[0.001, 0.1, 10]}),\
+          "randomforest":(RandomForestClassifier(random_state=123),{'n_estimators':[50,100,150,200,250,300],'criterion':['gini','entropy'],'max_depth':[5,10,15,20,30]})}
 
 
-MODELS = {"svm":(SVC(probability=True),{'gamma': [0.001, 0.01, 0.1, 1], 'C':[0.001, 0.1, 10]})}
-          #"logistic":(LogisticRegression(solver='liblinear'),{'penalty':['l1', 'l2']})}
-          #"nn":(),\
-          #"GBDT":(),\
-          #"xgboost":(),\
-          #"lightGBM":()}
-
-MODEL_NAMES = ["svm"]
+MODEL_NAMES = ["svm",'randomforest']
 #["svm","logistic","nn","GBDT","xgboost","lightGBM"]
 
 EXPRESSION_LABEL = {"0":"angry",

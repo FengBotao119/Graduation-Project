@@ -1,49 +1,50 @@
-from models import SVM
-from sklearn.model_selection import train_test_split
+from models import SVM,Randomforest
 from sklearn.metrics import accuracy_score, recall_score, precision_score
 import pandas as pd 
 import numpy as np
 from model_config import *
+import joblib
+import os
 
-"""
-呆解决问题：二分类需要调整阈值
-"""
 
 def Test(X,Y,models):
     pres = []
     for model in models:
-        pres.append(model.predict(X))
-    pre = np.array(pres).argmax(axis=1)
+        pres.append(model.predict_proba(X)[:,1])
+    pre = np.array(pres).argmax(axis=0)
     recall = recall_score(Y,pre,average=None)
     precision = precision_score(Y,pre,average=None)
     accuracy  = accuracy_score(Y,pre)
-    return pre,recall,precision,accuracy
+    return recall,precision,accuracy
 
-def Train():
-    pass
 
 if __name__=='__main__':
+    #---------------TRAIN STAGE-----------------------------------------
     datasets = [] 
-    #models = [SVM()]
+    best_models = {label:None for label in EXPRESSION_LABEL.values()}
     for label in EXPRESSION_LABEL.values():
         data = pd.read_csv('./face_model/data/'+label+"_ovr_data.csv" )
-        X, Y = data.drop(['label'],axis=1), data['label']
-        data_train,data_test,Y_train,Y_test = train_test_split(X,Y,test_size=0.3,stratify=Y)
-
-        x, y = data_train[FEATURE_COLUMNS], data_train[label]
-        x_test, y_test = data_test[FEATURE_COLUMNS], data_test[label]
-
+        models = [SVM(),Randomforest()]
+        x, y = data[FEATURE_COLUMNS],data[label]
         best_result = float('-inf')
-        #for model in models:
-        model = SVM()
-        model.gridsearch(x,y,5)
-        auc = model.evaluate(x_test,y_test)
-        if auc>best_result:
-            best_model_name = model.model_name
-            best_model = model
-            best_result = auc
-                    
-        print("class {} has been trained via {}, auc: {:.4f}".format(\
-                            label, best_model_name, best_result))
+        for model in models:
+            model.gridsearch(x,y,5)
+            auc = model.get_best_score
+            param = model.get_best_param
+            if auc>best_result:
+                best_model_name = model.model_name
+                best_model = model
+                best_result = auc
+                best_param = param
+            print("class {} model {} param {} auc {:.4f}".format(label,model.model_name,param,auc))   
+        best_models[label] = best_model  
+        #print("class {} has been trained via {}, auc: {:.4f}".format(\
+        #                    label, best_model_name, best_result))
         best_model.save(out_dir='./face_model/results/',file_name = label+"_"+best_model_name+".pkl")
-
+    
+    #----------------TEST STAGE------------------------------------------
+    test_data = pd.read_csv('./face_model/data/ovr_test_data.csv')
+    recall, precison, accuracy = Test(test_data[FEATURE_COLUMNS],test_data['label'],best_models.values())
+    print("recall",{EXPRESSION_LABEL[str(i)]:round(recall[i],3) for i in range(7)})
+    print("precision",{EXPRESSION_LABEL[str(i)]:round(precison[i],3) for i in range(7)})
+    print("accuracy",accuracy)
