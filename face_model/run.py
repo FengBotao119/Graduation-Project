@@ -1,28 +1,30 @@
-from models import Model
+from models import SVM
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, recall_score, precision_score
 import pandas as pd 
 import numpy as np
 from model_config import *
 
 """
-read data->split data->train->test->save
-
+呆解决问题：二分类需要调整阈值
 """
 
-def Train(model,X,Y,n_folds,out_dir,file_name):
-    model.gridsearch(X,Y,n_folds)
-    model.save(out_dir,file_name)
-    return model,model.get_best_param,model.get_best_score
+def Test(X,Y,models):
+    pres = []
+    for model in models:
+        pres.append(model.predict(X))
+    pre = np.array(pres).argmax(axis=1)
+    recall = recall_score(Y,pre,average=None)
+    precision = precision_score(Y,pre,average=None)
+    accuracy  = accuracy_score(Y,pre)
+    return pre,recall,precision,accuracy
 
-def Evaluate(model,X,Y):
-    return model.evaluate(X,Y)
-
-def predict():
+def Train():
     pass
-
 
 if __name__=='__main__':
     datasets = [] 
+    #models = [SVM()]
     for label in EXPRESSION_LABEL.values():
         data = pd.read_csv('./face_model/data/'+label+"_ovr_data.csv" )
         X, Y = data.drop(['label'],axis=1), data['label']
@@ -32,15 +34,16 @@ if __name__=='__main__':
         x_test, y_test = data_test[FEATURE_COLUMNS], data_test[label]
 
         best_result = float('-inf')
-        for name in MODEL_NAMES:
-            model = Model(name)
-            model.gridsearch(x,y,5)
-            accuracy,recall,precision,f1 = model.evaluate(x_test,y_test)
-            if f1>best_result:
-                best_model_name = name
-                best_model = model
-                best_accuracy, best_recall, best_precision, best_f1 = accuracy,recall,precision,f1
-        print("class {} has been trained, f1: {:.4f}, recall: {:.4f}, precision: {:.4f}".format(\
-                            label,best_model.get_best_score,best_recall,best_precision))
+        #for model in models:
+        model = SVM()
+        model.gridsearch(x,y,5)
+        auc = model.evaluate(x_test,y_test)
+        if auc>best_result:
+            best_model_name = model.model_name
+            best_model = model
+            best_result = auc
+                    
+        print("class {} has been trained via {}, auc: {:.4f}".format(\
+                            label, best_model_name, best_result))
         best_model.save(out_dir='./face_model/results/',file_name = label+"_"+best_model_name+".pkl")
 
