@@ -2,10 +2,10 @@ import pandas as pd
 import numpy as np
 import joblib
 import os
+import torch
 from model_config import MODELS
 from abc import ABC,abstractmethod
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.multiclass import OneVsOneClassifier,OneVsRestClassifier
+from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import roc_auc_score
 
 class ModelBase:
@@ -102,10 +102,17 @@ class Randomforest(ModelBase):
 
 class NN(ModelBase):
     def __init__(self):
-        pass
+        self.model_name = 'nn'
+        self._model,self.param_grid = MODELS[self.model_name]
+        self.devide = "cuda" torch.cuda.is_available() else "cpu"
+        #self._model.to(self.devide)
 
     def gridsearch(self):
-        pass
+        
+        
+
+    def train(self,x,y):
+        
 
     def predict(self):
         pass

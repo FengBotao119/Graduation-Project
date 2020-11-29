@@ -10,7 +10,7 @@ import os
 def Test(X,Y,models):
     pres = []
     for model in models:
-        pres.append(model.predict_proba(X)[:,1])
+        pres.append(model.predict(X))
     pre = np.array(pres).argmax(axis=0)
     recall = recall_score(Y,pre,average=None)
     precision = precision_score(Y,pre,average=None)
