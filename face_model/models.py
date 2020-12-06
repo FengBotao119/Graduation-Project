@@ -9,15 +9,22 @@ class NN(nn.Module):
         self.fc = nn.Linear(feature_size,hidden_size[0])
         self.h1 = nn.Linear(hidden_size[0],hidden_size[1])
         self.h2 = nn.Linear(hidden_size[1],hidden_size[2])
+        self.h3 = nn.Linear(hidden_size[2],hidden_size[3])
+        self.h4 = nn.Linear(hidden_size[3],hidden_size[4])
+        self.h5 = nn.Linear(hidden_size[4],hidden_size[5])
+        self.h6 = nn.Linear(hidden_size[5],hidden_size[6])
 
-        self.output = nn.Linear(hidden_size[2],output_size)
-        #self.dropout = nn.Dropout(dropout)
+        self.output = nn.Linear(hidden_size[6],output_size)
+        self.dropout = nn.Dropout(dropout)
         
         self.bn1 = nn.BatchNorm1d(hidden_size[0])
         self.bn2 = nn.BatchNorm1d(hidden_size[1])
         self.bn3 = nn.BatchNorm1d(hidden_size[2])
+        self.bn4 = nn.BatchNorm1d(hidden_size[3])
+        self.bn5 = nn.BatchNorm1d(hidden_size[4])
+        self.bn6 = nn.BatchNorm1d(hidden_size[5])
+        self.bn7 = nn.BatchNorm1d(hidden_size[6])
 
-    
     def forward(self,x):
         #o1 = F.relu(self.fc(x))
         #o2 = F.relu(self.dropout(self.h1(o1)))
@@ -25,8 +32,13 @@ class NN(nn.Module):
         o1 = torch.relu(self.bn1(self.fc(x)))
         o2 =  torch.relu(self.bn2(self.h1(o1)))
         o3 =  torch.relu(self.bn3(self.h2(o2)))
+        o4 =  torch.relu(self.bn4(self.h3(o3))) 
+        o5 =  torch.relu(self.bn5(self.h4(o4)))
+        o6 =  torch.relu(self.bn6(self.h5(o5)))
 
-        output = self.output(o3)
+        o7 =  self.dropout(torch.relu(self.bn7(self.h6(o6))))
+
+        output = self.output(o7)
         return output
 
 
