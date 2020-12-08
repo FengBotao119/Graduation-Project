@@ -15,7 +15,7 @@ This project is based on the audio/vedio emotion competition.
 
 ### VIDEO
 
-- 
+- [Here](https://github.com/FengBotao119/Graduation-Project/tree/master/face_model)
 
 ### AUDIO
 

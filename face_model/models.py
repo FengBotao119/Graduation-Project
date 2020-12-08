@@ -73,6 +73,10 @@ class ResidualNN(nn.Module):
         return o3
 
 
+class DeepandWideNN(nn.Module):
+    pass
+
+
 class FocalLoss_MultiLabel(nn.Module):
     def __init__(self, class_num, alpha=None, gamma=2, size_average=True):
         super().__init__()
