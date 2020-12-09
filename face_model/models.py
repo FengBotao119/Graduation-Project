@@ -6,40 +6,78 @@ import torch.optim as optim
 class NN(nn.Module):
     def __init__(self,feature_size,hidden_size,output_size,dropout):
         super().__init__()
-        self.fc = nn.Linear(feature_size,hidden_size[0])
-        self.h1 = nn.Linear(hidden_size[0],hidden_size[1])
-        self.h2 = nn.Linear(hidden_size[1],hidden_size[2])
-        self.h3 = nn.Linear(hidden_size[2],hidden_size[3])
-        self.h4 = nn.Linear(hidden_size[3],hidden_size[4])
-        self.h5 = nn.Linear(hidden_size[4],hidden_size[5])
-        self.h6 = nn.Linear(hidden_size[5],hidden_size[6])
+        self.feature_size = feature_size
+        self.hidden_size  = hidden_size 
+        self.dropout      = dropout
 
-        self.output = nn.Linear(hidden_size[6],output_size)
-        self.dropout = nn.Dropout(dropout)
-        
-        self.bn1 = nn.BatchNorm1d(hidden_size[0])
-        self.bn2 = nn.BatchNorm1d(hidden_size[1])
-        self.bn3 = nn.BatchNorm1d(hidden_size[2])
-        self.bn4 = nn.BatchNorm1d(hidden_size[3])
-        self.bn5 = nn.BatchNorm1d(hidden_size[4])
-        self.bn6 = nn.BatchNorm1d(hidden_size[5])
-        self.bn7 = nn.BatchNorm1d(hidden_size[6])
+        self.hidden_0 = nn.Linear(feature_size,hidden_size[0])
+        if self.dropout:
+            self.h0_dropout = nn.Dropout(self.dropout[0])
+        for i,_ in enumerate(hidden_size[1:],1):
+            setattr(self,"hidden_"+str(i),nn.Linear(hidden_size[i-1],hidden_size[i]))
+            if self.dropout:
+                setattr(self,"h"+str(i)+'_dropout',nn.Dropout(self.dropout[i]))
+        for i,_ in enumerate(hidden_size):
+            setattr(self,'bn'+str(i),nn.BatchNorm1d(hidden_size[i]))
+        self.output = nn.Linear(hidden_size[-1],output_size)
 
     def forward(self,x):
-        #o1 = F.relu(self.fc(x))
-        #o2 = F.relu(self.dropout(self.h1(o1)))
-        #o3 = F.relu(self.h2(o2))
-        o1 = torch.relu(self.bn1(self.fc(x)))
-        o2 =  torch.relu(self.bn2(self.h1(o1)))
-        o3 =  torch.relu(self.bn3(self.h2(o2)))
-        o4 =  torch.relu(self.bn4(self.h3(o3))) 
-        o5 =  torch.relu(self.bn5(self.h4(o4)))
-        o6 =  torch.relu(self.bn6(self.h5(o5)))
-
-        o7 =  self.dropout(torch.relu(self.bn7(self.h6(o6))))
-
-        output = self.output(o7)
+        for i in range(len(self.hidden_size)):
+            x = getattr(self,"hidden_"+str(i))(x)
+            x = torch.relu(getattr(self,"bn"+str(i))(x))
+            if self.dropout:
+                x = getattr(self,"h"+str(i)+"_dropout")(x)
+        output = self.output(x)
         return output
+
+
+class Deep_Wide_NN(nn.Module):
+    def __init__(self,wide_dim,embeddings_input,deep_column_idx,continuous_cols,hidden_layers,dropout,n_class):
+        super.__init__()
+        self.wide_dim = wide_dim
+        self.deep_column_idx = deep_column_idx
+        self.embeddings_input = embeddings_input
+        self.continuous_cols = continuous_cols
+        self.hidden_layers = hidden_layers
+        self.dropout = dropout
+        self.n_class = n_class
+
+        for col,val,dim in self.embeddings_input:
+            setattr(self,"emb_"+col,nn.Embedding(val,dim,padding_idx=0))
+        
+        input_emb_dim = sum([emb[2] for emb in self.embeddings_input])
+        self.linear_1 = nn.Linear(input_emb_dim+len(continuous_cols), self.hidden_layers[0])
+        if self.dropout:
+            self.linear_1_drop = nn.Dropout(self.dropout[0])
+        for i,_ in enumerate(self.hidden_layers[1:],1):
+            setattr(self, 'linear_'+str(i+1), nn.Linear( self.hidden_layers[i-1], self.hidden_layers[i] ))
+            if self.dropout:
+                setattr(self, 'linear_'+str(i+1)+'_drop', nn.Dropout(self.dropout[i]))
+
+        self.output = nn.Linear(self.hidden_layers[-1]+self.wide_dim, self.n_class)
+
+    def forward(self,X_w,X_d):
+        emb = [getattr(self, 'emb_layer_'+col)(X_d[:,self.deep_column_idx[col]].long())
+               for col,_,_ in self.embeddings_input]
+        if self.continuous_cols:
+            cont_idx = [self.deep_column_idx[col] for col in self.continuous_cols]
+            cont = [X_d[:, cont_idx].float()]
+            deep_inp = torch.cat(emb+cont, 1)
+        else:
+            deep_inp = torch.cat(emb,1)
+
+        x_deep = F.relu(self.linear_1(deep_inp))
+        if self.dropout:
+            x_deep = self.linear_1_drop(x_deep)
+        for i in range(1,len(self.hidden_layers)):
+            x_deep = F.relu( getattr(self, 'linear_'+str(i+1))(x_deep) )
+            if self.dropout:
+                x_deep = getattr(self, 'linear_'+str(i+1)+'_drop')(x_deep)
+
+        wide_deep_input = torch.cat([x_deep, X_w.float()], 1)
+        out = self.output(wide_deep_input)
+        
+        return out
 
 
 class ResidualBlock(nn.Module):

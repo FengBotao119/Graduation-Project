@@ -49,7 +49,7 @@ train_loader = DataLoader(train_set,batch_size=args.train_batch_size,shuffle=Tru
 valid_loader  = DataLoader(valid_set,batch_size=args.valid_batch_size,shuffle=True)
 
 writer = SummaryWriter('./face_model/results/log')
-model1 = NN(36,(32,128,256,512,256,128,32),7,0.1)
+model1 = NN(36,(32,128,256,512,256,128,32),7,None)
 #model1 = ResidualNN(35,[(16,32,16,0.4),(16,32,16,0.4),(16,64,16,0.4),(16,32,16,0.4)],8)
 device = "cuda" if torch.cuda.is_available() else "cpu"
 #criterion = nn.CrossEntropyLoss()
