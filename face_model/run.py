@@ -111,7 +111,7 @@ for epoch in range(args.epoch):
         torch.save(model1.state_dict(),"./face_model/results/"+model_name+".pkl")
     valid_losses.append(valid_loss)
 
-model = NN(36,(32,128,256,512,256,128,32),7,0.2)
+model = NN(36,(32,128,256,512,256,128,32),7,None)
 model.load_state_dict(torch.load('./face_model/results/'+model_name+'.pkl'))
 model.eval()
 
