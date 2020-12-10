@@ -13,6 +13,8 @@ import numpy as np
 import pandas as pd 
 import argparse
 
+setup_seed(123)
+
 parser = argparse.ArgumentParser()
 parser.add_argument('--epoch',type=int,default=50)
 parser.add_argument('--confidence_threshold',type=float,default=0.8)
@@ -121,6 +123,8 @@ train_cm = cm(train_y_pre,Y_train,args.topk)
 valid_y_pre = model(X_valid)
 valid_cm = cm(valid_y_pre,Y_valid,args.topk)
 
+#加入测试集数据
+#通过prepare_data 提前处理数据 在run.py文件只需要读取文件 然后运行
 print("*"*100)
 print(train_cm)
 print("*"*100)

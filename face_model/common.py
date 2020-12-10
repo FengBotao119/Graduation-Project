@@ -2,7 +2,8 @@ import numpy as np
 import pandas as pd
 from face_model.model_config import *
 from sklearn.metrics import confusion_matrix
-
+from sklearn.model_selection import train_test_split 
+import random
 
 def P_R(pre,y_true):
     pre = pre.argmax(dim=1).detach().cpu().numpy()
@@ -25,8 +26,6 @@ def cm(pre,y_true,topK):
     _,top = pre.detach().sort()
     top = top.cpu().numpy()
     top = top[:,-topK:]
-    #pre = pre.argmax(dim=1).detach().cpu().numpy()
-    #print(top)
     y_true = y_true.int().cpu().numpy() 
     pre = [y_true[i] if y_true[i] in top[i,:] else top[i,-1] for i in range(top.shape[0])]
     cm = confusion_matrix(y_true,pre)
@@ -42,21 +41,27 @@ def cm(pre,y_true,topK):
 
 def weights_init_uniform(m):
     classname = m.__class__.__name__
-    # for every Linear layer in a model..
     if classname.find('Linear') != -1:
-        # apply a uniform distribution to the weights and a bias=0
         m.weight.data.uniform_(0.0, 1.0)
         m.bias.data.fill_(0)
 
-## complete this function
 def weights_init_normal(m):
-    '''Takes in a module and initializes all linear layers with weight
-       values taken from a normal distribution.'''
-    
     classname = m.__class__.__name__
-    # for every Linear layer in a model
-    # m.weight.data shoud be taken from a normal distribution
-    # m.bias.data should be 0
     if classname.find('Linear') != -1:
         m.weight.data.normal_(0.0, 0.01)
-        m.bias.data.fill_(0)        
+        m.bias.data.fill_(0)       
+
+def setup_seed(seed):
+     torch.manual_seed(seed)
+     torch.cuda.manual_seed_all(seed)
+     np.random.seed(seed)
+     random.seed(seed)
+     torch.backends.cudnn.deterministic = True
+
+def prepare_date(train_df,test_df,mode):
+    if mode == "plant_nn":
+        pass
+    elif mode == 'Deep_Wide_nn':
+        
+    else:
+        print("模型正在开发中......")
