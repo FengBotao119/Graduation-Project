@@ -32,18 +32,20 @@ class NN(nn.Module):
 
 
 class Deep_Wide_NN(nn.Module):
-    def __init__(self,wide_dim,embeddings_input,deep_column_idx,continuous_cols,hidden_layers,dropout,n_class):
+    def __init__(self,embeddings_input,column_idx,continuous_cols,\
+                categary_cols,wide_cols,hidden_layers,dropout,n_class):
         super().__init__()
-        self.wide_dim = wide_dim
-        self.deep_column_idx = deep_column_idx
+        self.column_idx = column_idx
         self.embeddings_input = embeddings_input
         self.continuous_cols = continuous_cols
+        self.categary_cols = categary_cols
+        self.wide_cols = wide_cols
         self.hidden_layers = hidden_layers
         self.dropout = dropout
         self.n_class = n_class
 
         for col,val,dim in self.embeddings_input:
-            setattr(self,"emb_"+col,nn.Embedding(val,dim,padding_idx=0))
+            setattr(self,"emb_"+col[1:],nn.Embedding(val,dim,padding_idx=0))
         
         input_emb_dim = sum([emb[2] for emb in self.embeddings_input])
         self.linear_1 = nn.Linear(input_emb_dim+len(continuous_cols), self.hidden_layers[0])
@@ -54,14 +56,16 @@ class Deep_Wide_NN(nn.Module):
             if self.dropout:
                 setattr(self, 'linear_'+str(i+1)+'_drop', nn.Dropout(self.dropout[i]))
 
-        self.output = nn.Linear(self.hidden_layers[-1]+self.wide_dim, self.n_class)
+        self.output = nn.Linear(self.hidden_layers[-1]+len(self.wide_cols),self.n_class)
 
-    def forward(self,X_w,X_d):
-        emb = [getattr(self, 'emb_'+col)(X_d[:,self.deep_column_idx[col]].long())
+    def forward(self,X):
+        wide_idx = [self.column_idx[col] for col in self.wide_cols]
+        X_w = X[:,wide_idx]
+        emb = [getattr(self, 'emb_'+col[1:])(X[:,self.column_idx[col]].long())
                for col,_,_ in self.embeddings_input]
         if self.continuous_cols:
-            cont_idx = [self.deep_column_idx[col] for col in self.continuous_cols]
-            cont = [X_d[:, cont_idx].float()]
+            cont_idx = [self.column_idx[col] for col in self.continuous_cols]
+            cont = [X[:, cont_idx].float()]
             deep_inp = torch.cat(emb+cont, 1)
         else:
             deep_inp = torch.cat(emb,1)
@@ -73,10 +77,8 @@ class Deep_Wide_NN(nn.Module):
             x_deep = F.relu( getattr(self, 'linear_'+str(i+1))(x_deep) )
             if self.dropout:
                 x_deep = getattr(self, 'linear_'+str(i+1)+'_drop')(x_deep)
-        if X_w:
-            wide_deep_input = torch.cat([x_deep, X_w.float()], 1)
-        else:
-            wide_deep_input = x_deep
+            
+        wide_deep_input = torch.cat([x_deep, X_w.float()], 1)
         out = self.output(wide_deep_input)
         
         return out
