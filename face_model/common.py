@@ -50,9 +50,11 @@ def weights_init_uniform(m):
 
 def weights_init_normal(m):
     classname = m.__class__.__name__
-    if classname.find('Linear') != -1:
+    if classname.find('Linear')!= -1:
         m.weight.data.normal_(0.0, 0.01)
-        m.bias.data.fill_(0)       
+        m.bias.data.fill_(0) 
+    if classname.find('Embedding')!=-1:
+        m.weight.data.normal_(0,0.01)  
 
 def setup_seed(seed):
      torch.manual_seed(seed)
@@ -63,20 +65,21 @@ def setup_seed(seed):
 
 def prepare_data(train_df,test_df,mode,confidence_threshold,\
                 train_batch_size,valid_batch_size):
-    train_df = train_df[train_df[" confidence"]>confidence_threshold]
-    test_df  = test_df[test_df[" confidence"]>confidence_threshold]
+    train_df = train_df[train_df[" confidence"]>confidence_threshold].copy()
+    test_df  = test_df[test_df[" confidence"]>confidence_threshold].copy()
+    continuous_cols = FEATURE_COLUMNS[:18]
     all_cols = FEATURE_COLUMNS
+    column_idx = {col:index for index,col in enumerate(all_cols)}
     results = {}
     if mode == "Deep_Wide_nn":
         embeddings_input = [(col,2,7) for col in FEATURE_COLUMNS[18:]]
-        continuous_cols = FEATURE_COLUMNS[:18]
         categary_cols   = FEATURE_COLUMNS[18:]
         wide_cols = []
         for i in range(len(categary_cols)):
             for j in range(i+1,len(categary_cols)):
                 new_col = categary_cols[i][1:]+"_"+categary_cols[j][1:]
-                train_df.loc[:,new_col] = train_df.loc[:,categary_cols[i]]*train_df.loc[:,categary_cols[j]]
-                test_df.loc[:,new_col] = test_df.loc[:,categary_cols[i]]*test_df.loc[:,categary_cols[j]]
+                train_df[new_col] = train_df[categary_cols[i]]*train_df[categary_cols[j]]
+                test_df[new_col] = test_df[categary_cols[i]]*test_df[categary_cols[j]]
                 wide_cols.append(new_col)
         all_cols = FEATURE_COLUMNS+wide_cols
         column_idx = {col:index for index,col in enumerate(all_cols)}

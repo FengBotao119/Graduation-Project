@@ -4,8 +4,10 @@ I'm going to use [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) to ex
 
 ## Model
 
-- NN+Focal_loss
-- Wide&Deep model
+- NN + Focal loss
+- NN + Cross entropy loss
+- Wide&Deep model + Focal loss
+- Wide&Deep model + Cross entropy loss
 
 ## Dataset
 
@@ -14,5 +16,6 @@ I'm going to use [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) to ex
 
 ## Results
 
+![loss](/Users/andrew/Desktop/Script/Graduation-Project/face_model/results/loss.png)
 
-
+![confusion_matrix](/Users/andrew/Desktop/Script/Graduation-Project/face_model/results/confusion_matrix.png)
