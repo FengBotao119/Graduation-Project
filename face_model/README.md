@@ -21,7 +21,7 @@ I'm going to use [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) to ex
 ![confusion_matrix](https://github.com/FengBotao119/Graduation-Project/blob/master/face_model/results/confusion_matrix.png)
 
 
-## Refenfence
+## Refefence
 
 - Cheng H T, Koc L, Harmsen J, et al. Wide & deep learning for recommender systems[C]//Proceedings of the 1st workshop on deep learning for recommender systems. 2016: 7-10.
 - Lin T Y, Goyal P, Girshick R, et al. Focal loss for dense object detection[C]//Proceedings of the IEEE international conference on computer vision. 2017: 2980-2988.
