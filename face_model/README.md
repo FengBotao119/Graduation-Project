@@ -16,6 +16,6 @@ I'm going to use [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) to ex
 
 ## Results
 
-![loss](/Users/andrew/Desktop/Script/Graduation-Project/face_model/results/loss.png)
+![loss](https://github.com/FengBotao119/Graduation-Project/blob/master/face_model/results/loss.png)
 
-![confusion_matrix](/Users/andrew/Desktop/Script/Graduation-Project/face_model/results/confusion_matrix.png)
+![confusion_matrix](https://github.com/FengBotao119/Graduation-Project/blob/master/face_model/results/confusion_matrix.png)
