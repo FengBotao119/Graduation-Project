@@ -1,0 +1,175 @@
+,start_time,stop_time,speaker,value
+0,36.588,39.668,Ellie,hi i'm ellie thanks for coming in today
+1,39.888000000000005,43.378,Ellie,i was created to talk to people in a safe and secure environment
+2,43.728,48.498000000000005,Ellie,think of me as a friend i don't judge i can't i'm a computer
+3,49.188,52.388000000000005,Ellie,i'm here to learn about people and would love to learn about you
+4,52.658,58.958,Ellie,i'll ask a few questions to get us started and please feel free to tell me anything your answers are totally confidential
+5,60.028,61.378,Ellie,how are you doing today
+6,62.328,63.178000000000004,Participant,good
+7,63.798,64.738,Ellie,that's good
+8,65.858,67.528,Ellie,where are you from originally
+9,68.97800000000001,70.288,Participant,atlanta georgia
+10,70.97800000000001,71.868,Ellie,really
+11,72.788,74.19800000000001,Ellie,why'd you move to l_a
+12,75.028,78.128,Participant,um my parents are from here um
+13,82.21799999999999,83.57799999999999,Ellie,how do you like l_a
+14,83.80799999999999,84.588,Participant,i love it
+15,85.55799999999999,87.898,Ellie,what are some things you really like about l_a
+16,88.458,89.96799999999999,Participant,i like the weather
+17,90.27799999999999,93.568,Participant,i like the opportunities
+18,94.738,95.29799999999999,Participant,um
+19,96.588,97.27799999999999,Participant,yes
+20,98.228,100.868,Ellie,how easy was it for you to get used to living in l_a
+21,102.428,103.26799999999999,Participant,um
+22,104.27799999999999,105.55799999999999,Participant,it took a minute
+23,107.738,108.79799999999999,Participant,somewhat easy
+24,110.788,113.16799999999999,Ellie,what are some things you don't really like about l_a
+25,114.038,115.55799999999999,Participant,congestion
+26,119.21799999999999,119.978,Ellie,mhm
+27,120.26799999999999,121.15799999999999,Participant,that's it
+28,122.82799999999999,123.76799999999999,Ellie,okay
+29,125.54799999999999,126.958,Ellie,what'd you study at school
+30,128.488,132.628,Participant,um i took up business and administration
+31,133.718,134.438,Ellie,cool
+32,134.81799999999998,136.178,Ellie,are you still doing that
+33,136.748,139.418,Participant,uh yeah i am
+34,139.868,144.548,Participant,here and there i'm on a break right now but i plan on going back in the uh next semester
+35,146.00799999999998,147.468,Ellie,what's your dream job
+36,149.25799999999998,152.168,Participant,uh probably to open up my own business
+37,155.69799999999998,156.678,Ellie,awesome
+38,159.44799999999998,160.858,Ellie,do you travel a lot
+39,161.248,162.06799999999998,Participant,no
+40,163.618,164.328,Ellie,why
+41,165.608,168.968,Participant,um no specific reason i just
+42,169.518,170.97799999999998,Participant,don't travel a lot
+43,171.308,172.97799999999998,Participant,i'm pretty local
+44,174.148,174.968,Ellie,okay
+45,175.558,177.668,Ellie,how often do you go back to your hometown
+46,178.578,179.918,Participant,once a year
+47,182.50799999999998,183.268,Ellie,nice
+48,184.998,186.858,Ellie,do you consider yourself an introvert
+49,189.09799999999998,191.06799999999998,Participant,can you be a little bit more specific
+50,193.678,195.248,Ellie,whatever comes to your mind
+51,196.868,197.998,Participant,no answer
+52,199.28799999999998,200.088,Ellie,okay
+53,200.81799999999998,202.398,Ellie, what do you do to relax
+54,203.31799999999998,206.358,Participant,i like reading books i enjoy i enjoy cooking
+55,206.72799999999998,208.658,Participant,um exercising is great
+56,211.648,212.618,Ellie,awesome
+57,213.878,216.06799999999998,Ellie,how are you at controlling your temper
+58,217.72799999999998,219.868,Participant,i'm i'm i'm pretty good at it
+59,220.22799999999998,221.058,Participant,um
+60,221.358,222.06799999999998,Ellie,really
+61,221.358,222.06799999999998,Participant,yeah
+62,223.708,227.208,Ellie,when was the last time you argued with someone and what was it about
+63,227.998,230.118,Participant,um probably about
+64,231.088,232.368,Participant,two weeks ago
+65,235.458,237.378,Ellie,how did you feel in that moment
+66,238.298,240.168,Participant,uh frustrated
+67,242.218,243.518,Ellie,tell me more about that
+68,244.748,245.808,Participant,um
+69,246.338,247.918,Participant,i don't like bias
+70,248.488,252.298,Participant,um i don't like um when someone says they're gonna do something and they don't
+71,252.938,253.678,Ellie,mhm
+72,257.578,258.848,Ellie,how close are you to them
+73,260.238,261.168,Participant,uh somewhat
+74,262.748,263.938,Ellie,how do you know them
+75,266.918,267.988,Participant,friendship
+76,269.89799999999997,270.658,Ellie,okay
+77,274.918,276.788,Ellie,what are some things you like to do for fun
+78,279.618,285.988,Participant,i like to play sports i enjoy uh going out with friends and family
+79,286.918,288.078,Participant,playing games
+80,288.858,289.678,Ellie,nice
+81,290.868,293.268,Ellie,who's someone that's been a positive influence in your life
+82,294.678,295.778,Participant,grandparents
+83,296.64799999999997,297.618,Participant,parents
+84,298.928,299.668,Ellie,aww
+85,302.228,303.498,Ellie,can you tell me about that
+86,305.218,309.358,Participant,um yeah i mean they've always given me great advice
+87,310.538,312.20799999999997,Participant,they've always kept it real
+88,314.14799999999997,316.388,Ellie,how close are you to your family
+89,316.868,318.008,Participant,real close
+90,322.918,324.388,Ellie,is there anything you regret
+91,325.738,333.468,Participant,i would say going to college right after high school
+92,334.26800000000003,335.05800000000005,Ellie,why
+93,336.98800000000006,339.728,Participant,well i would've been done by now you know
+94,340.56800000000004,344.168,Participant,i would have been probably out in the field
+95,344.788,346.06800000000004,Participant,in the career field
+96,347.17800000000005,348.80800000000005,Ellie,what made you decide to do that
+97,349.99800000000005,351.98800000000006,Participant,uh taking a job off the street
+98,354.17800000000005,356.44800000000004,Ellie,could you have done anything to avoid it
+99,357.81800000000004,360.19800000000004,Participant,i'm sure i could've yes
+100,363.92800000000005,366.44800000000004,Ellie,what's one of your most memorable experiences
+101,372.098,373.218,Participant,i'm not sure
+102,373.588,375.48800000000006,Participant,maybe when i graduated from high school
+103,377.588,378.288,Ellie,yeah
+104,381.848,383.67800000000005,Ellie,i'd love to hear all about it
+105,386.728,390.32800000000003,Participant,well uh i um i got my diploma
+106,390.74800000000005,395.44800000000004,Participant,my my diploma that i finished school and i met all the requirements 
+107,396.62800000000004,397.708,Participant,high school
+108,398.588,399.98800000000006,Participant,and i was approved to go
+109,401.208,402.87800000000004,Participant,do whatever i wanted to do
+110,403.468,404.49800000000005,Ellie,that's great
+111,406.968,408.61800000000005,Ellie,what's it like for you living with them
+112,409.408,410.42800000000005,Participant,living with who
+113,411.43800000000005,413.158,Ellie,how do you like your living situation
+114,414.148,416.44800000000004,Participant,um it's alright it could be better
+115,417.418,418.68800000000005,Ellie,do you have roommates
+116,417.42800000000005,417.858,Participant,not
+117,419.038,419.50800000000004,Participant,no
+118,420.608,421.74800000000005,Ellie,that's good
+119,426.75800000000004,429.278,Ellie,how easy is it for you to get a good night's sleep
+120,430.858,432.458,Participant,uh it's pretty easy
+121,433.978,435.538,Ellie,do you feel that way often
+122,436.538,437.598,Participant,uh yes
+123,438.55800000000005,440.548,Ellie,what are you like when you don't sleep well
+124,448.468,449.56800000000004,Participant,repeat that
+125,450.49800000000005,452.478,Ellie,what are you like when you don't sleep well
+126,453.18800000000005,455.55800000000005,Participant,irritated um
+127,457.348,458.25800000000004,Participant,lazy
+128,462.288,463.48800000000006,Ellie,do you feel down
+129,463.86800000000005,464.468,Participant,no
+130,466.278,467.108,Ellie,that's good
+131,468.348,470.37800000000004,Ellie,have you been diagnosed with depression
+132,470.658,471.348,Participant,no
+133,471.87800000000004,474.18800000000005,Ellie,have you ever been diagnosed with p_t_s_d
+134,474.63800000000003,475.24800000000005,Participant,no
+135,475.94800000000004,477.648,Ellie,have you ever served in the military
+136,477.86800000000005,478.478,Participant,no
+137,479.228,480.088,Ellie,okay
+138,487.69800000000004,490.348,Ellie,when was the last time you felt really happy
+139,492.32800000000003,494.708,Participant,um the other day
+140,496.44800000000004,497.608,Ellie,tell me more about that
+141,499.50800000000004,502.038,Participant,weather was great sun was out
+142,503.87800000000004,505.98800000000006,Ellie,that sounds like a great situation
+143,507.57800000000003,509.25800000000004,Ellie,what do you think of today's kids
+144,511.028,511.88800000000003,Participant,different
+145,515.528,517.188,Ellie,can you give me an example of that
+146,525.4780000000001,526.528,Participant,less
+147,527.9780000000001,529.288,Participant,less um
+148,530.038,531.008,Participant,interested
+149,533.118,534.128,Ellie,[laughter]
+150,535.148,536.268,Ellie,i see what you mean
+151,544.928,546.488,Ellie,what do you do when you're annoyed
+152,548.568,550.018,Participant,uh shut down
+153,553.558,555.528,Ellie,when was the last time that happened
+154,559.768,562.2280000000001,Participant,uh about two weeks ago
+155,564.2080000000001,564.818,Ellie,mhm
+156,566.0980000000001,567.4780000000001,Ellie,can you tell me about that
+157,568.678,571.798,Participant,uh yeah a friend of mine was annoying me and i just
+158,572.4580000000001,573.568,Participant,cut them off
+159,574.868,576.008,Ellie,i'm sorry
+160,576.178,577.558,Participant,[laughter] it's alright
+161,579.0980000000001,580.3480000000001,Ellie,how do you know them
+162,581.178,582.128,Participant,friendship
+163,583.928,584.558,Ellie,cool
+164,589.148,590.918,Ellie,how would your best friend describe you
+165,598.238,599.7080000000001,Participant,chocolate
+166,600.6080000000001,601.378,Participant,tall
+167,601.7180000000001,602.688,Ellie,[laughter]
+168,602.738,603.4780000000001,Participant,thin
+169,610.398,611.0980000000001,Ellie,okay
+170,614.2280000000001,616.878,Ellie,okay i think i've asked everything i need to
+171,618.308,619.078,Participant,thank you
+172,619.488,620.3480000000001,Ellie,goodbye
+173,620.538,621.268,Participant,bye bye

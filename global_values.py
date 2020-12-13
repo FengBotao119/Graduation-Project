@@ -10,3 +10,7 @@ TEXT_DIR = "./data/text/"
 GRAD_CLIP = 5
 
 PREFIX = sorted([file[:3] for file in os.listdir(TEXT_DIR) if file.endswith('.csv')])
+
+TOPICS = {"interest":0, "sleep":1, "depressed":2,
+          "failure":3, "personality":4, "PTSD":5,
+          "parenting":6}

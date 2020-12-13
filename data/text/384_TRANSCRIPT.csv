@@ -1,0 +1,249 @@
+,start_time,stop_time,speaker,value
+0,24.2,25.4,Participant,<sync>
+1,40.1,61.64,Ellie,IntroV4Confirmation (hi i'm ellie thanks for coming in today i was created to talk to people in a safe and secure environment i'm not a therapist but i'm here to learn about people and would love to learn about you i'll ask a few questions to get us started and please feel free to tell me anything your answers are totally confidential are you ok with this)
+2,62.43,63.14,Participant,yes
+3,63.373999999999995,63.833999999999996,Ellie,okay_confirm (okay)
+4,65.256,67.52600000000001,Ellie,how_doingV (so how are you doing today)
+5,68.69,69.92,Participant,i'm doing fine
+6,70.28399999999999,70.92399999999999,Ellie,thats_good (that's good)
+7,71.689,73.009,Ellie,where_originally (where are you from originally)
+8,74.2,75.17,Participant,indiana
+9,75.628,76.218,Ellie,really (really)
+10,78.15,79.01,Participant,yes
+11,78.564,79.64399999999999,Ellie,when_LA (when did you move to l_a)
+12,81.29,83.65,Participant,uh i don't know maybe ten years ago
+13,84.56299999999999,86.463,Ellie,often_backB (how often do you go back to your hometown)
+14,87.52,88.31,Participant,never
+15,89.09700000000001,89.667,Ellie,why2 (why)
+16,91.3,94.11,Participant,uh just don't like the cold weather
+17,95.50399999999999,96.53399999999999,Ellie,see_mean (i see what you mean)
+18,97.906,99.52600000000001,Ellie,compares_LA (how does it compare to l_a)
+19,101.31,103.92,Participant,l_a has beautiful weather and
+20,104.85,106.63,Participant,activities all the time
+21,107.616,108.63600000000001,Ellie,why_LA (why did you move to l_a)
+22,109.98,110.89,Participant,new life
+23,112.49,114.96,Ellie,adapted_LA (how easy was it for you to get used to living in l_a)
+24,117.1,118.99,Participant,uh reasonably easy
+25,120.301,122.411,Ellie,like_about_LA (what are some things you really like about l_a)
+26,124.65,127.08,Participant,the good weather the ocean
+27,127.51,129.85,Participant,and there's always something to do
+28,131.034,131.54399999999998,Ellie,mhm (mhm)
+29,132.03799999999998,134.388,Ellie,dont_like_LA (what are some things you don't really like about l_a)
+30,135.01,136.54,Participant,hm uh
+31,137.83,138.8,Participant,the traffic
+32,142.457,148.983,Ellie,travel_shoes (i'm sure you can tell by my shoes i'm not much of a world explorer do you travel a lot)
+33,148.92,149.91,Participant,sometimes
+34,150.987,152.507,Ellie,travel_changed (what do you enjoy about traveling)
+35,153.31,157.54,Participant,seeing new places uh and visiting new people
+36,158.52700000000002,160.207,Ellie,travel_trips (i'd love to hear about one of your trips)
+37,162.16,166.31,Participant,well a couple years ago i went to the catalina islands for my birthday
+38,167.06599999999997,167.796,Ellie,nice (nice)
+39,170.071,171.231,Ellie,tell_about_that (can you tell me about that)
+40,172.57,176.59,Participant,i was i spent the whole day uh on the catalina islands
+41,177.78,179.01,Participant,i took a boat there
+42,179.94400000000002,182.304,Ellie,memorableB (what's one of your most memorable experiences)
+43,185.09,185.89,Participant,uh
+44,188.23,191.65,Participant,hopping on the airplane and leaving indiana for good
+45,192.766,194.30599999999998,Ellie,describe_felt (how did you feel in that moment)
+46,195.27,196.08,Participant,okay
+47,199.165,199.625,Ellie,okay_confirm (okay)
+48,201.165,202.305,Ellie,study (what did you study at school)
+49,204.87,206.26,Participant,sleeping
+50,209.24,215.638,Ellie,job_virtually (i love my job you could almost say it's virtually made for me what's your dream job)
+51,216.41,217.62,Participant,uh
+52,218.46,219.72,Participant,being a filmmaker
+53,222.046,223.176,Ellie,sounds_interesting (that sounds interesting)
+54,224.72,226.13,Ellie,hard_decision (how did you decide to do that)
+55,228.74,231.33,Participant,because it's one job i haven't had yet
+56,232.926,233.86599999999999,Ellie,difficult (how hard is that)
+57,235.55,236.51,Participant,not too hard
+58,240.002,244.465,Ellie,shyoutgoing (do you consider yourself more shy or outgoing)
+59,243.79,244.53,Participant,shy
+60,245.734,246.304,Ellie,why2 (why)
+61,247.33,247.86,Participant,hm
+62,249.88,251.74,Participant,because of my past
+63,254.74200000000002,255.90200000000002,Ellie,tell_about_that (can you tell me about that)
+64,258.8,260.34,Participant,um i
+65,260.76,263.31,Participant,just have trouble making new friends and
+66,264.76,266.83,Participant,just let <l> trusting people
+67,268.155,269.505,Ellie,been_hard (that sounds really hard)
+68,273.85,274.8,Participant,okay
+69,276.52,288.635,Ellie,relax_fishtank (sometimes when i'm feeling tense i turn on the fish tank screensaver hey i know it's not hawaii but it's the best i've got what do you do to relax)
+70,290.68,293.82,Participant,uh watch t_v or go to the movies
+71,294.644,295.05400000000003,Ellie,cool3 (cool)
+72,295.98,298.04,Ellie,control_temper (how are you at controlling your temper)
+73,300.41,303.17,Participant,i really don't have a temper
+74,304.52,305.16,Ellie,thats_good (that's good)
+75,306.161,309.211,Ellie,last_argument (when was the last time you argued with someone and what was it about)
+76,310.56,314.09,Participant,when i was sixteen my stepfather
+77,314.74,320.46,Participant,uh because of uh nightmares i was having
+78,323.17400000000004,324.334,Ellie,tell_about_that (can you tell me about that)
+79,325.12,327.66,Participant,i was just having nightmares about my childhood
+80,328.23,331.22,Participant,about my involving my biological father
+81,332.045,333.425,Ellie,trigger (are they triggered by something)
+82,334.9,337.46,Participant,so far i have no idea if they are or not
+83,339.58099999999996,340.691,Ellie,symptoms_cope (how do you cope with them)
+84,343.27,346.28,Participant,uh go for a walk or drive
+85,347.527,349.06699999999995,Ellie,bouts_symptoms (when was the last time that happened)
+86,350.7,352.68,Participant,uh maybe a few days ago
+87,355.869,357.409,Ellie,describe_felt (how did you feel in that moment)
+88,358.48,361.92,Participant,uh just walked around the block a few times
+89,364.87199999999996,365.332,Ellie,okay_confirm (okay)
+90,367.74,369.74,Ellie,feelguilty (what's something you feel guilty about)
+91,372.4,373.93,Participant,pushing people away
+92,375.819,377.689,Ellie,avoid (could you have done anything to avoid it)
+93,381.23,382.57,Participant,uh i guess
+94,382.81,384.92,Participant,try to trust them a little bit more
+95,386.06,388.27,Participant,let them in my life little bit more
+96,391.63199999999995,395.76599999999996,Ellie,memory_erase (tell me about an event or something that you wish you could erase from your memory)
+97,399.4,402.38,Participant,well that'd be easy that'd be the first half of my life
+98,405.841,406.411,Ellie,why2 (why)
+99,410.51,414.4,Participant,it'd be easier to start a new life if i can't remember my old one <laughter>
+100,415.515,416.545,Ellie,see_mean (i see what you mean)
+101,418.785,422.452,Ellie,hard_decisionB (tell me about the hardest decision you've ever had to make)
+102,427.07,427.88,Participant,uh
+103,435.13,444.95,Participant,really i mm all my decisions is not that hard i just try to avoid stress and everything so i don't really have hard decisions
+104,446.075,446.545,Ellie,uh_huh (uh huh)
+105,448.277,452.077,Ellie,situation_handled (tell me about a situation that you wish you had handled differently)
+106,453.82,455.01,Participant,uh
+107,455.47,460.32,Participant,well every time i push someone away i wish i handled all those situations differently
+108,463.965,465.295,Ellie,give_example (can you give me an example of that)
+109,467.59,472.48,Participant,uh well uh whenever someone gets too involved <volve> involved in my life
+110,472.9,478.06,Participant,i always say or do something to make them want to stay away from me
+111,479.642,480.18199999999996,Ellie,like_what (like what)
+112,483.05,485.75,Participant,um this
+113,486.6,488.96,Participant,depending on the type of person they are
+114,491.314,491.774,Ellie,okay_confirm (okay)
+115,493.782,496.449,Ellie,family_relationship (tell me about your relationship with your family)
+116,498.78,506.28,Participant,uh i really don't have a relationship with any of my family i know i have a sister someplace in vegas
+117,506.92,509.52,Participant,a half of a brother in indiana
+118,510.46,514.0,Participant,uh my stepfather's in arizona
+119,514.68,517.68,Participant,other than that i have no relationship with any of them
+120,519.344,520.504,Ellie,tell_about_that (can you tell me about that)
+121,523.14,524.43,Participant,um
+122,525.0,526.94,Participant,we really don't talk
+123,527.34,529.71,Participant,so it's kind of hard to talk about them <laughter>
+124,534.359,536.689,Ellie,influence_positive (who's someone that's been a positive influence in your life)
+125,541.95,543.42,Participant,edgar cayce
+126,547.375,549.005,Ellie,love_hear (i'd love to hear all about it)
+127,551.44,557.45,Participant,well he died way before i was born and i only know him from like books and documentaries
+128,560.511,560.971,Ellie,okay_confirm (okay)
+129,562.181,564.621,Ellie,easy_sleep (how easy is it for you to get a good night's sleep)
+130,565.94,568.51,Participant,uh really not that easy um
+131,568.84,569.39,Participant,i
+132,570.51,576.44,Participant,usually <use> usually take me like a few hours to get to finally get to sleep once i lay down in my bed
+133,578.456,579.4159999999999,Ellie,tell_me_about (tell me about that)
+134,581.35,587.89,Participant,uh well basically i try to lay down i have stressful <s> racing or stressful thoughts
+135,588.47,595.07,Participant,a few times i might even try to listen to music for one hour just to see if it calms me down
+136,597.347,599.127,Ellie,sleep_affects (what are you like when you don't sleep well)
+137,601.84,603.21,Participant,stressed out
+138,604.0,608.08,Participant,and just yeah just basically a little stressed out
+139,612.4590000000001,613.839,Ellie,feel_lately (how have you been feeling lately)
+140,616.65,620.81,Participant,well i've been feeling a little bit lately <leet> a little bit upset and
+141,621.41,623.6,Participant,just wish my life was different
+142,625.741,626.901,Ellie,tell_about_that (can you tell me about that)
+143,630.28,641.13,Participant,uh well i wish i had friends and loved ones and all of that and i wish i had an actual relationship and everything but i don't
+144,642.816,643.256,Ellie,yeah_downer (yeah)
+145,645.683,648.8530000000001,Ellie,behavior_changes (have you noticed any changes in your behavior or thoughts lately)
+146,650.94,655.82,Participant,well lately i live <li> i move we moved a bunch of stuff <st>
+147,656.49,659.72,Participant,things out my stress <st> life stressful things like
+148,660.54,662.0,Participant,bills and what not
+149,662.66,664.55,Participant,and just  try to keep
+150,665.7,666.23,Participant,uh
+151,666.68,670.09,Participant,to make sure there's the least amount of stress in my life by
+152,670.74,671.65,Participant,just
+153,671.97,676.61,Participant,removing just different things out my life and trying to incorporate new things
+154,678.5110000000001,679.3710000000001,Ellie,Ellie17Dec2012_03 (that's good)
+155,680.123,682.163,Ellie,ptsd_diagnosed (have you ever been diagnosed with p_t_s_d)
+156,682.45,683.17,Participant,yes
+157,683.7189999999999,685.6389999999999,Ellie,when_diagnosed (how long ago were you diagnosed)
+158,686.36,688.91,Participant,i i guess we're number sixteen
+159,689.927,691.2769999999999,Ellie,why_seek_help (what got you to seek help)
+160,692.56,693.62,Participant,nightmares
+161,695.5980000000001,697.038,Ellie,therapy_going (do you still go to therapy now)
+162,698.13,701.68,Participant,uh stopped a while back because it was getting too stressful
+163,704.077,705.967,Ellie,therapist_affect (how has seeing a therapist affected you)
+164,707.92,711.2,Participant,well basically i just
+165,711.88,719.07,Participant,i just pushed like i got rid of them out my life because i didn't feel like they was really listening to me or anything
+166,719.87,721.2,Participant,and uh
+167,721.98,729.18,Participant,yeah so i just didn't feel too much beneficial help from them  so i've been looking for alternative means
+168,731.154,731.694,Ellie,like_what (like what)
+169,734.07,738.13,Participant,uh well just basically like music and
+170,738.58,743.28,Participant,going forcing myself to go to like different social related events
+171,745.5060000000001,746.0160000000001,Ellie,mhm (mhm)
+172,747.045,748.855,Ellie,depression_diagnosed (have you been diagnosed with depression)
+173,749.34,750.06,Participant,yes
+174,750.7230000000001,751.873,Ellie,symptoms_what (what were your symptoms)
+175,753.3,754.94,Participant,depressed
+176,755.47,760.76,Participant,mm just but basically just depressed uh keeping myself locked in
+177,761.46,763.37,Participant,not talking to anyone
+178,765.528,769.262,Ellie,happy_lasttime (tell me about the last time you felt really happy)
+179,770.69,771.74,Participant,uh
+180,774.98,776.94,Participant,uh i guess a few days ago
+181,778.929,779.699,Ellie,Ellie17Dec2012_02 (uh huh)
+182,784.939,786.0989999999999,Ellie,tell_about_that (can you tell me about that)
+183,787.06,789.14,Participant,okay well basically
+184,789.41,794.24,Participant,i feel that the best way to keep people in my life is
+185,794.97,801.25,Participant,having fake people in my life by playing online multiplayer games with avatars
+186,801.78,804.0,Participant,and user names and everything and
+187,804.61,806.83,Participant,i just have some uh fun
+188,807.7,811.14,Participant,going into virtual worlds with these avatars
+189,811.38,813.26,Participant,and talking to people that way
+190,813.66,815.87,Participant,so they don't know who i really am
+191,816.18,818.02,Participant,they don't even know my real name
+192,818.9,819.62,Ellie,awesome (awesome)
+193,822.903,825.1030000000001,Ellie,ideal_weekendC (tell me how you spend your ideal weekend)
+194,826.4,830.41,Participant,okay well my ideal weekend uh let me see
+195,830.71,837.41,Participant,is uh if i'm not working that weekend i will get up maybe go to like starbucks or a mcdonalds
+196,838.37,842.26,Participant,get online while eating or drinking something
+197,842.89,846.91,Participant,maybe play a online multiplayer game for a little while
+198,847.31,851.28,Participant,and then later on in the day maybe go to a movie
+199,852.07,855.3,Participant,uh whatever's playing then
+200,856.59,860.43,Participant,uh go someplace else relax watch some t_v
+201,861.24,862.32,Participant,um
+202,862.89,865.79,Participant,and maybe put on a d_v_d movie and
+203,866.72,867.73,Participant,um
+204,868.5,874.65,Participant,or i might spend the day i the whole day driving to someplace i  haven't been before
+205,874.86,877.12,Participant,or it's been a long time since i've been
+206,877.48,880.52,Participant,just try to spend the day in that area
+207,881.26,882.1,Participant,and just
+208,882.76,884.84,Participant,yeah so that's the weekend
+209,884.824,885.294,Ellie,uh_huh (uh huh)
+210,887.431,888.5010000000001,Ellie,regret (is there anything you regret)
+211,890.25,891.32,Participant,my life
+212,894.91,896.07,Ellie,tell_about_that (can you tell me about that)
+213,897.59,905.43,Participant,i just regret how my life turned out i wish i wish i had a more normal stable life
+214,907.257,910.207,Ellie,advice_back (what advice would you give to yourself ten or twenty years ago)
+215,913.22,914.51,Participant,uh
+216,918.26,920.51,Participant,let me see ten twenty years ago
+217,920.72,923.36,Participant,i was especially
+218,925.7,926.45,Participant,uh
+219,927.92,932.34,Participant,i would just tell myself to keep a journal or something <s> uh or 
+220,933.18,934.57,Participant,to basically
+221,935.54,936.81,Participant,tell myself
+222,937.12,940.07,Participant,how my life will turn out now
+223,940.6,944.42,Participant,so that way hopefully the other me will make different choices
+224,948.012,950.312,Ellie,Ellie17Dec2012_08 (what are you most proud of in your life)
+225,953.28,954.98,Participant,uh my mind
+226,958.587,961.455,Ellie,self_change (what are some things you wish you could change about yourself)
+227,964.31,967.43,Participant,well i wish i wish i was a bit healthier
+228,967.7,971.14,Participant,i wish i looked a little bit better i wish my eyesight was
+229,971.61,972.79,Participant,a lot better
+230,973.67,977.44,Participant,and i wish i had a bunch of people in my life that i could call friends
+231,980.6210000000001,983.561,Ellie,Ellie17Dec2012_07 (what would you say are some of your best qualities)
+232,984.8,986.17,Participant,um
+233,986.75,988.31,Participant,i'm a freaking genius
+234,988.57,989.77,Participant,i could
+235,990.4,994.22,Participant,uh everything that i'm good at i learned self taught
+236,994.35,998.49,Participant,so basically i can't get a career in that type of stuff unless i go to school for it
+237,998.73,999.34,Participant,but
+238,1000.0,1001.78,Participant,it's hard to
+239,1001.99,1007.48,Participant,it's basically easier if i teach myself than like take some type of a class to do it
+240,1008.07,1009.62,Participant,and everything 'cause
+241,1010.86,1013.61,Participant,yeah basically <bay> yeah just basically
+242,1013.95,1016.13,Participant,the fact i'm a freaking genius okay
+243,1018.08,1020.52,Ellie,asked_everything (okay i think i have asked everything i need to)
+244,1021.3430000000001,1022.783,Ellie,appreciate_open (thanks for sharing your thoughts with me)
+245,1024.26,1025.16,Participant,thank you
+246,1025.282,1025.892,Ellie,bye (goodbye)
+247,1026.7,1027.72,Participant,have a good day

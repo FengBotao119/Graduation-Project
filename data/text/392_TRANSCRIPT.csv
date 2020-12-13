@@ -1,0 +1,178 @@
+,start_time,stop_time,speaker,value
+0,14.58,15.48,Participant,<sync>
+1,29.897,51.437,Ellie,IntroV4Confirmation (hi i'm ellie thanks for coming in today i was created to talk to people in a safe and secure environment i'm not a therapist but i'm here to learn about people and would love to learn about you i'll ask a few questions to get us started and please feel free to tell me anything your answers are totally confidential are you ok with this)
+2,51.6,51.99,Participant,yes
+3,52.464,52.924,Ellie,okay_confirm (okay)
+4,54.042,56.312,Ellie,how_doingV (so how are you doing today)
+5,56.65,57.21,Participant,i'm doing well
+6,57.771,58.411,Ellie,thats_good (that's good)
+7,59.185,60.505,Ellie,where_originally (where are you from originally)
+8,60.8,62.01,Participant,uh california
+9,63.678000000000004,65.788,Ellie,like_about_LA (what are some things you really like about l_a)
+10,66.33,68.74,Participant,i like the weather i like the people
+11,69.979,72.329,Ellie,dont_like_LA (what are some things you don't really like about l_a)
+12,72.79,75.98,Participant,i don't like the traffic uh that's primarily it
+13,76.851,77.881,Ellie,see_mean (i see what you mean)
+14,79.572,80.712,Ellie,study (what did you study at school)
+15,81.36,82.29,Participant,sociology
+16,82.993,83.583,Ellie,really (really)
+17,85.029,86.439,Ellie,hard_decision (how did you decide to do that)
+18,85.03,85.3,Participant,yep
+19,87.4,91.62,Participant,uh it's a topic that just really interested me the most out of all the other subjects
+20,92.601,93.861,Ellie,still_working_on_X (are you still working in that)
+21,94.41,94.79,Participant,no
+22,96.634,97.834,Ellie,dream_job (what's your dream job)
+23,98.6,99.33,Participant,to be a writer
+24,101.196,102.35600000000001,Ellie,tell_about_that (can you tell me about that)
+25,103.36,104.02,Participant,um
+26,105.05,111.33,Participant,i like being able to write what i want to write uh right now i write things that i'm not really that interested in
+27,112.665,113.205,Ellie,like_what (like what)
+28,113.64,116.71,Participant,like uh articles about uh
+29,117.45,119.18,Participant,teenager culture
+30,119.43,120.11,Participant,stuff like that
+31,121.68700000000001,122.197,Ellie,mhm (mhm)
+32,123.079,124.959,Ellie,todays_kids (what do you think of today's kids)
+33,125.47,126.35,Participant,um
+34,127.72,131.18,Participant,i think they have it pretty easy they don't know how easy they have it <laughter>
+35,132.224,132.694,Ellie,yeah3 (yeah)
+36,134.90200000000002,141.072,Ellie,travel_shoes (i'm sure you can tell by my shoes i'm not much of a world explorer do you travel a lot)
+37,141.12,142.57,Participant,uh no not really
+38,144.28,144.74,Ellie,okay_confirm (okay)
+39,147.126,151.543,Ellie,shyoutgoing (do you consider yourself more shy or outgoing)
+40,150.76,158.31,Participant,mm depends on the situation or who i'm around when i first meet people i can be shy uh but if it's someone i've known for a while i can be outgoing
+41,159.224,159.694,Ellie,uh_huh (uh huh)
+42,161.48,173.56099999999998,Ellie,relax_fishtank (sometimes when i'm feeling tense i turn on the fish tank screensaver hey i know it's not hawaii but it's the best i've got what do you do to relax)
+43,173.47,177.83,Participant,um i'll lay down or try some sort like deep breathing
+44,178.62,183.08,Participant,or uh just maybe do something that's kinda fun and mind numbing like watch t_v
+45,184.679,186.739,Ellie,control_temper (how are you at controlling your temper)
+46,187.79,191.59,Participant,i'm pretty good i don't really let anger show that much um
+47,192.04,196.1,Participant,i'm not like a i don't have a fiery temper or anything like that i'm pretty rational
+48,196.763,197.403,Ellie,thats_good (that's good)
+49,198.24400000000003,201.294,Ellie,last_argument (when was the last time you argued with someone and what was it about)
+50,202.17,202.85,Participant,um
+51,205.71,209.72,Participant,i actually can't remember when the last time i argued with someone was 'cause it's been so long
+52,211.35,211.92,Ellie,wow (wow)
+53,214.981,217.13299999999998,Ellie,feelguilty (what's something you feel guilty about)
+54,218.67,219.35,Participant,um
+55,220.3,223.88,Participant,i guess i feel guilty about the fact that i don't talk to my grandparents as much as i should
+56,226.391,226.851,Ellie,okay_confirm (okay)
+57,228.798,231.515,Ellie,family_relationship (tell me about your relationship with your family)
+58,232.01,236.66,Participant,um i'm close with my grandparents but not really anyone else in my family
+59,238.50099999999998,239.071,Ellie,why2 (why)
+60,239.81,244.52,Participant,uh 'cause they basically sort of raised me uh and uh my parents
+61,245.31,245.53,Participant,weren't
+62,246.09,247.18,Participant,really in the picture that much
+63,248.334,249.28400000000002,Ellie,understand (i understand)
+64,251.19,254.96900000000002,Ellie,situation_handled (tell me about a situation that you wish you had handled differently)
+65,255.91,256.75,Participant,um <sigh>
+66,264.59,266.26,Participant,i can't really think of one
+67,267.49,268.08,Participant,right now
+68,269.508,269.968,Ellie,okay_confirm (okay)
+69,271.922,276.053,Ellie,memory_erase (tell me about an event or something that you wish you could erase from your memory)
+70,278.08,278.69,Participant,uh
+71,281.24,285.04,Participant,i guess uh when my sister died it was really traumatizing
+72,286.125,286.865,Ellie,im_sorry (i'm sorry)
+73,287.22,287.48,Participant,mhm
+74,289.17400000000004,291.73400000000004,Ellie,uncomfortable_talkV (is it uncomfortable for you to talk about this)
+75,291.81,292.15,Participant,yeah
+76,292.51,292.94,Participant,yes
+77,294.199,294.599,Ellie,downer (okay)
+78,297.236,300.906,Ellie,hard_decisionB (tell me about the hardest decision you've ever had to make)
+79,303.48,304.12,Participant,um
+80,305.06,310.23,Participant,i guess the hardest decision i've ever had to make is deciding whether or not to divorce my husband
+81,312.461,313.89099999999996,Ellie,change_directions (what made you decide to do that)
+82,314.61,321.85,Participant,uh because we weren't getting along and there was no reason to stay married but i still felt like i should stick it out
+83,324.501,325.441,Ellie,difficult (how hard is that)
+84,326.59,329.04,Participant,i mean it was hard at the time uh but
+85,329.76,331.5,Participant,i made the right decision i think
+86,333.67400000000004,334.134,Ellie,okay_confirm (okay)
+87,335.98800000000006,338.31800000000004,Ellie,influence_positive (who's someone that's been a positive influence in your life)
+88,338.96,342.41,Participant,uh my grandmother was a positive influence from a young age
+89,344.88300000000004,346.043,Ellie,tell_about_that (can you tell me about that)
+90,347.29,350.87,Participant,um she's just a very strong powerful
+91,351.5,353.6,Participant,uh sort of staunch character
+92,353.96,354.98,Participant,and that rubbed off on me
+93,356.22,357.58,Ellie,good_hear (that's so good to hear)
+94,359.34,361.78,Ellie,easy_sleep (how easy is it for you to get a good night's sleep)
+95,362.49,366.3,Participant,uh not really super easy um
+96,367.64,371.54,Participant,i sort of i mean it's my probably my fault i go to bed too late
+97,373.534,375.314,Ellie,sleep_affects (what are you like when you don't sleep well)
+98,376.32,378.38,Participant,just sort of foggy and distracted
+99,378.95,380.11,Participant,i have trouble concentrating
+100,382.536,382.996,Ellie,okay_confirm (okay)
+101,384.17400000000004,385.55400000000003,Ellie,feel_lately (how have you been feeling lately)
+102,386.83,388.39,Participant,you mean like my body
+103,390.478,390.98800000000006,Ellie,mhm (mhm)
+104,391.69,392.05,Participant,uh
+105,392.55,393.03,Participant,normal
+106,393.25,393.71,Participant,fine
+107,394.17,395.09,Participant,no complaints
+108,396.30800000000005,399.478,Ellie,behavior_changes (have you noticed any changes in your behavior or thoughts lately)
+109,399.81,400.16,Participant,no
+110,400.84,401.78,Participant,it's been the same as ever
+111,403.665,405.705,Ellie,ptsd_diagnosed (have you ever been diagnosed with p_t_s_d)
+112,406.08,406.41,Participant,no
+113,407.165,408.975,Ellie,depression_diagnosed (have you been diagnosed with depression)
+114,409.25,409.58,Participant,no
+115,411.58099999999996,415.30800000000005,Ellie,happy_lasttime (tell me about the last time you felt really happy)
+116,415.49,416.49,Participant,uh
+117,417.84,424.07,Participant,last night i was just hanging out with my friends and was just having like a really good time sharing stories and laughing and stuff
+118,426.273,427.173,Ellie,thats_great (that's great)
+119,429.37199999999996,431.06199999999995,Ellie,BF_describe (how would your best friend describe you)
+120,432.34,438.23,Participant,uh probably funny and uh easy to get along with but also caring
+121,439.421,439.931,Ellie,mhm (mhm)
+122,441.714,443.9,Ellie,ideal_weekendC (tell me how you spend your ideal weekend)
+123,444.78,451.88,Participant,uh i spend my ideal weekend not really doing much like maybe just sitting around and reading or going to the movies watching t_v
+124,453.06699999999995,453.537,Ellie,mm (mm)
+125,454.385,455.455,Ellie,regret (is there anything you regret)
+126,456.61,457.38,Participant,uh
+127,458.4,458.76,Participant,no
+128,459.1,459.7,Participant,i don't think
+129,460.49,464.87,Participant,there's not i don't <do> i don't think uh i think regretting <r> regretting things is a waste of time
+130,466.603,469.55300000000005,Ellie,advice_back (what advice would you give to yourself ten or twenty years ago)
+131,470.82,471.53,Participant,um
+132,475.6,477.98,Participant,don't  try to
+133,479.33,481.58,Participant,don't go out of your way to try and impress people
+134,482.13,482.32,Participant,if
+135,482.69,484.01,Participant,they like you then they like you
+136,487.224,490.106,Ellie,self_change (what are some things you wish you could change about yourself)
+137,491.09,491.61,Participant,um
+138,501.27,502.33,Participant,sometimes
+139,503.55,505.26,Participant,sometimes i can be kinda lazy
+140,505.86,506.32,Participant,uh
+141,507.74,510.75,Participant,i'd like to have more of a um like sort of  uh
+142,512.01,513.62,Participant,better work ethic i guess
+143,515.0169999999999,516.347,Ellie,give_example (can you give me an example of that)
+144,517.38,525.69,Participant,uh just sort of putting off stuff um until you know right when it's due or after it's due things like that um  procrastinating
+145,527.008,527.4680000000001,Ellie,okay_confirm (okay)
+146,528.9209999999999,534.225,Ellie,feelbadly (tell me about a time when someone made you feel really badly about yourself)
+147,535.49,536.41,Participant,uh <sigh>
+148,538.81,546.28,Participant,sometimes for the things that i write uh people will write negative things about me like in the comment section on a website
+149,546.993,547.873,Ellie,oh_no (oh no)
+150,547.06,547.89,Participant,and that'll make me feel bad
+151,549.971,550.811,Ellie,that_sucks (that sucks)
+152,551.3,551.65,Participant,<laughter>
+153,555.8,558.74,Ellie,Ellie17Dec2012_07 (what would you say are some of your best qualities)
+154,559.5,561.31,Participant,i'm uh articulate
+155,562.04,566.31,Participant,and funny and a good friend
+156,568.028,568.538,Ellie,mhm (mhm)
+157,570.427,572.727,Ellie,Ellie17Dec2012_08 (what are you most proud of in your life)
+158,573.87,574.37,Participant,um
+159,577.74,580.15,Participant,i guess i'm most proud of the fact that uh
+160,581.31,582.15,Participant,i
+161,584.53,586.26,Participant,am satisfied with
+162,586.68,587.31,Participant,myself
+163,588.04,592.03,Participant,and my friends and my status in the world
+164,593.0,595.61,Participant,i'm proud of the fact that i feel comfortable with it
+165,597.151,598.511,Ellie,good_hear (that's so good to hear)
+166,601.086,603.856,Ellie,Ellie17Dec2012_09 (what are some things that usually put you in a good mood)
+167,605.02,608.46,Participant,um just hanging out with my friends uh
+168,609.38,610.83,Participant,sort of people watching
+169,611.26,612.75,Participant,watching a movie that's good
+170,613.53,614.02,Participant,um
+171,614.69,615.46,Participant,listening to music
+172,617.673,620.113,Ellie,asked_everything (okay i think i have asked everything i need to)
+173,620.809,622.249,Ellie,appreciate_open (thanks for sharing your thoughts with me)
+174,622.64,622.93,Participant,mhm
+175,623.515,624.125,Ellie,bye (goodbye)
+176,624.41,624.65,Participant,bye

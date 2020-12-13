@@ -1,0 +1,281 @@
+,start_time,stop_time,speaker,value
+0,6.02,7.05,Participant,[syncing]
+1,60.84,63.75,Ellie,hi i'm ellie thanks for coming in today
+2,64.495,67.955,Ellie,i was created to talk to people in a safe and secure environment
+3,68.72,75.12,Ellie,i'm not a therapist but i'm here to learn about people and would love to learn about you i'll ask a few questions to get us started 
+4,75.8,80.49,Ellie,and please feel free to tell me anything your answers are totally confidential
+5,81.03,82.3,Ellie,are you okay with this
+6,82.81,83.22,Participant,yes
+7,83.825,84.405,Ellie,okay
+8,85.11,87.42,Ellie,so how are you doing today
+9,88.04,89.22,Participant,i'm a little nervous
+10,90.555,91.125,Ellie,why
+11,91.915,93.295,Participant,mm this is different
+12,94.5,95.26,Ellie,[laughter]
+13,95.645,96.695,Ellie,i understand
+14,97.835,99.125,Ellie,where are you from originally
+15,99.555,100.435,Participant,california
+16,101.15,101.83,Ellie,really
+17,101.855,102.535,Participant,yes
+18,102.9,104.99,Ellie,what are some things you really like about l_a
+19,107.09,108.43,Participant,i like the beach
+20,109.605,110.295,Ellie,mhm
+21,110.415,111.455,Participant,um
+22,114.93,115.82,Participant,the weather
+23,118.0,118.83,Participant,mm mm
+24,118.84,119.49,Ellie,okay
+25,120.5,122.73,Ellie,what are some things you don't really like about l_a
+26,122.89,125.19,Participant,so many people [laughter]
+27,126.23,126.74,Ellie,mm
+28,126.79,127.38,Participant,yeah
+29,129.88,130.8,Ellie,what do you do now
+30,131.755,132.515,Participant,what do you mean
+31,134.82,135.98,Participant,what do i do now
+32,136.665,137.935,Ellie,what's your dream job
+33,139.595,141.035,Participant,i don't know right now
+34,144.32,145.54,Ellie,what'd you study at school
+35,146.43,147.41,Participant,um
+36,147.995,149.185,Participant,i went through nursing
+37,150.695,151.925,Ellie,that sounds interesting
+38,151.925,152.605,Participant,mhm
+39,153.41,154.74,Ellie,are you happy you did that
+40,154.91,155.52,Participant,yes
+41,157.07,158.35,Ellie,are you still working in that
+42,158.685,159.455,Participant,no
+43,161.525,162.605,Ellie,tell me more about that
+44,162.91,163.88,Participant,about nursing
+45,164.86,165.45,Ellie,mhm
+46,167.38,172.195,Participant,that's a great field to be in if you have the heart the passion for caring for people
+47,173.51,174.84,Ellie,how did you decide to do that
+48,174.85,175.74,Participant,my mother
+49,177.52,178.04,Ellie,aw
+50,178.095,178.735,Participant,yeah
+51,181.48,183.06,Ellie,how close are you to your family
+52,183.735,187.875,Participant,right now uh it's we're we're close i have a pretty close family
+53,188.675,189.585,Ellie,that's good
+54,189.575,190.075,Participant,mhm
+55,192.79,194.44,Ellie,do you consider yourself an introvert
+56,195.54,196.63,Participant,mm what do you mean
+57,199.26,200.94,Ellie,why don't we talk about that later
+58,201.055,201.595,Participant,okay
+59,202.8,204.2,Ellie,what do you do to relax
+60,205.085,206.265,Participant,i like to read
+61,208.14,210.62,Participant,and i like watching some television
+62,212.565,213.185,Ellie,cool
+63,213.21,213.83,Participant,yeah
+64,214.305,216.495,Ellie,how are you at controlling your temper
+65,218.845,221.095,Participant,i think i'm very good at controlling it
+66,221.585,224.905,Ellie,when was the last time you argued with someone and what was it about
+67,225.92,226.42,Participant,i
+68,226.855,228.235,Participant,i can't remember
+69,228.95,230.32,Participant,the last time i had an argument
+70,231.93,232.64,Ellie,okay
+71,235.25,236.73,Ellie,what do you do when you're annoyed
+72,239.595,240.315,Participant,mm
+73,242.0,245.58,Participant,i'm not for sure what i do when i'm really annoyed i think i get
+74,246.405,251.525,Participant,i don't know walk a lot i i'm not for sure when i'm annoyed because i have different reactions to
+75,252.225,253.525,Participant,whatever's annoying me
+76,254.165,254.585,Ellie,<laughter>
+77,254.6,255.05,Participant,<laughter>
+78,254.805,255.725,Ellie,i understand
+79,255.43,255.83,Participant,mhm
+80,256.655,258.815,Ellie,what are some things that make you really mad
+81,260.23,261.53,Participant,like mad
+82,265.78,268.37,Participant,well let me see mad is a hell of a word for me
+83,268.98,270.46,Participant,to be mad it means like
+84,271.3,272.73,Participant,when i'm mad it's
+85,273.35,274.39,Participant,it's uncontrollable
+86,275.24,275.93,Participant,when i'm mad
+87,276.63,277.06,Ellie,mhm
+88,277.43,277.91,Participant,mhm
+89,283.14,284.79,Ellie,how would your best friend describe you
+90,285.13,286.64,Participant,i don't have a best friend
+91,288.65,291.02,Ellie,what would you say are some of your best qualities
+92,292.21,293.88,Participant,i don't really know now
+93,297.54,298.23,Ellie,okay
+94,300.55,303.09,Ellie,who's someone that's been a positive influence in your life
+95,303.555,304.365,Participant,my mother
+96,306.665,307.325,Ellie,aw
+97,307.41,308.05,Participant,mhm
+98,308.335,309.805,Ellie,could you say a little more about that
+99,309.925,310.875,Participant,about my mother
+100,311.905,312.485,Ellie,mhm
+101,313.67,319.94,Participant,my mother was a beautiful woman and she had great values instilled in us when raising me
+102,321.025,321.635,Participant,yeah
+103,321.035,322.615,Ellie,can you give me an example of that
+104,324.77,327.36,Participant,values are like well good one thing is like
+105,327.91,331.695,Participant,my mother cooked and that was a valuable thing to me because she taught me to cook
+106,333.087,335.457,Participant,so that was very valuable honesty
+107,337.69699999999995,338.74699999999996,Ellie,that's great
+108,339.36699999999996,339.977,Participant,mhm
+109,341.06699999999995,343.657,Ellie,is it uncomfortable for you to talk about this
+110,343.93699999999995,344.917,Participant,about my mother
+111,345.55199999999996,346.162,Ellie,yes
+112,347.722,349.44199999999995,Participant,well she's no longer living
+113,349.99699999999996,350.977,Ellie,i'm sorry to hear that
+114,350.977,351.467,Participant,mhm
+115,354.587,357.86699999999996,Ellie,have you noticed any changes in your behavior or thoughts lately
+116,358.32199999999995,359.11199999999997,Participant,excuse me
+117,359.67199999999997,363.202,Ellie,have you noticed any changes in your behavior or thoughts lately
+118,364.82199999999995,367.05199999999996,Participant,mm changes in my behavior
+119,367.782,368.38199999999995,Ellie,mhm
+120,370.417,371.92699999999996,Participant,mm since i've been here
+121,374.29699999999997,374.92699999999996,Ellie,yes
+122,376.227,379.05699999999996,Participant,i don't i i think a little uncomfortable
+123,379.977,380.657,Participant,yeah
+124,381.222,382.32199999999995,Participant,it's a little strange
+125,381.81699999999995,383.077,Ellie,how have you been feeling lately
+126,383.62199999999996,384.832,Participant,how i've been feeling lately
+127,386.602,388.602,Participant,a little uneasy
+128,390.61699999999996,391.18699999999995,Ellie,why
+129,391.42699999999996,393.36699999999996,Participant,because of my experience
+130,394.31199999999995,396.602,Participant,the things i went through have been going through
+131,398.05199999999996,399.602,Ellie,could you say a little more about that
+132,399.75199999999995,400.81199999999995,Participant,i was raped
+133,401.337,402.537,Participant,and sodomized
+134,403.702,410.00199999999995,Participant,and they kept a gun to my head and cut my hair so i've been going through a hell of a thing lately
+135,404.267,404.98699999999997,Ellie,i'm sorry
+136,411.31699999999995,412.74699999999996,Ellie,that sounds really hard
+137,412.74699999999996,413.917,Participant,yes it is
+138,416.417,417.63699999999994,Ellie,how do you cope with them
+139,418.49199999999996,419.44199999999995,Participant,i cope
+140,419.532,421.88199999999995,Participant,it's it's difficult but i do cope
+141,422.88199999999995,423.69199999999995,Ellie,yeah
+142,423.69199999999995,424.43199999999996,Participant,mhm
+143,424.897,427.36699999999996,Ellie,how easy is it for you to get a good night's sleep
+144,428.347,430.43699999999995,Participant,it's not easy for me to sleep
+145,430.80699999999996,432.00699999999995,Participant,to get a good night's sleep
+146,433.18199999999996,435.00199999999995,Ellie,what are you like when you don't sleep well
+147,435.81699999999995,436.55699999999996,Participant,excuse me
+148,437.38199999999995,439.30199999999996,Ellie,what are you like when you don't sleep well
+149,440.407,442.267,Participant,i don't know maybe sluggish
+150,443.94199999999995,448.847,Participant,maybe sometimes i can be more irritable if i don't sleep well i don't sleep well that often
+151,451.29699999999997,451.897,Ellie,mm
+152,452.76199999999994,454.94199999999995,Ellie,have you ever been diagnosed with p_t_s_d
+153,455.13699999999994,456.75699999999995,Participant,yes that's what i have been diagnosed
+154,457.55199999999996,459.462,Ellie,how long ago were you diagnosed
+155,459.82199999999995,460.772,Participant,a few years ago
+156,463.152,464.712,Ellie,what got you to seek help
+157,466.35699999999997,469.38699999999994,Participant,because i wanted to get revenge on the guys that raped me
+158,472.097,473.777,Ellie,do you still go to therapy now
+159,473.792,474.212,Participant,no
+160,475.667,477.417,Participant,but i'm gonna go back
+161,476.417,477.087,Ellie,why did you stop
+162,477.69199999999995,478.392,Participant,excuse me
+163,478.467,479.12699999999995,Ellie,why did you stop
+164,481.032,482.212,Participant,i thought i was better
+165,483.037,483.79699999999997,Participant,i thought
+166,485.26199999999994,487.592,Ellie,did you think you had a problem before you found out
+167,488.57199999999995,490.76199999999994,Participant,i knew i had a problem but i didn't know what it was
+168,491.642,492.972,Ellie,what were your symptoms
+169,494.332,495.582,Participant,as far as what
+170,497.13199999999995,498.24199999999996,Participant,i didn't sleep
+171,498.892,499.852,Participant,i didn't eat
+172,502.73699999999997,504.097,Participant,i had nightmares
+173,504.892,505.98199999999997,Participant,i still have them
+174,507.94199999999995,508.592,Ellie,i see
+175,508.022,509.57199999999995,Participant,i was just really [real]
+176,511.652,512.562,Participant,afraid of
+177,513.0219999999999,515.877,Participant,uh really afraid i was not avoiding it
+178,516.464,517.124,Ellie,yeah
+179,518.6990000000001,520.409,Ellie,do you have disturbing thoughts
+180,521.249,522.379,Participant,as far as what
+181,524.109,525.719,Participant,disturbing thoughts like what
+182,526.7090000000001,527.9490000000001,Ellie,whatever comes to your mind
+183,530.3240000000001,533.974,Participant,of the things that's happened to me was disturbing [di] are disturbing thoughts
+184,536.564,537.284,Ellie,i see
+185,537.409,538.054,Participant,mhm
+186,538.054,539.564,Ellie,are they triggered by something
+187,539.674,540.434,Participant,sometimes
+188,543.429,544.629,Ellie,can you give me an example of that
+189,545.134,547.794,Participant,if i see four men together with hoods on it's
+190,548.069,549.839,Participant,i have it triggered by that
+191,550.569,554.554,Participant,sometimes when i have to go upstairs it's a trigger because of the
+192,555.164,557.354,Participant,of what happened they took me upstairs
+193,559.054,560.614,Ellie,that sounds really hard
+194,560.619,561.529,Participant,yes ma'am
+195,563.799,565.309,Ellie,do you feel like therapy is useful
+196,565.849,566.499,Participant,excuse me
+197,567.299,568.689,Ellie,do you feel like therapy is useful
+198,570.049,571.179,Participant,therapy is what
+199,572.689,575.4590000000001,Ellie,what sort of changes have you noticed since you've been going to therapy
+200,576.939,580.999,Participant,i haven't been to therapy in a while but i've noticed how to calm myself down
+201,582.604,585.164,Participant,when i get um afraid and
+202,587.359,588.499,Participant,that's about it
+203,589.624,590.464,Ellie,that's good
+204,590.519,591.159,Participant,mhm
+205,592.134,594.0740000000001,Ellie,how has seeing a therapist affected you
+206,594.499,595.239,Participant,it helped
+207,595.904,599.354,Participant,a lot of things that happened in my past i didn't realize it was
+208,599.654,601.284,Participant,deep down inside me still
+209,602.594,604.034,Ellie,how have you been feeling lately
+210,607.119,611.339,Participant,i'm like just jest you know just
+211,613.014,615.714,Participant,day by day just making it i think
+212,617.559,618.509,Ellie,okay
+213,620.2090000000001,622.989,Ellie,what are some things that usually put you in a good mood
+214,623.3240000000001,624.0740000000001,Participant,music
+215,626.254,627.134,Ellie,that's great
+216,628.7090000000001,629.289,Participant,yeah
+217,631.524,634.804,Ellie,tell me about something you did recently that you really enjoyed
+218,639.039,640.359,Participant,cooking the other day
+219,642.164,642.794,Participant,cooking
+220,645.314,646.034,Ellie,cool
+221,648.249,650.0790000000001,Ellie,what are you most proud of in your life
+222,650.9490000000001,651.849,Participant,my son
+223,654.284,654.934,Ellie,aw
+224,657.304,658.444,Ellie,tell me about your kids
+225,658.659,660.0089999999999,Participant,i only have one son
+226,661.4889999999999,662.8489999999999,Participant,and he's a beautiful child
+227,665.184,666.694,Ellie,that's so good to hear
+228,666.7339999999999,667.3739999999999,Participant,mhm
+229,667.809,669.5889999999999,Ellie,do you find it easy to be a parent
+230,669.784,671.8989999999999,Participant,no it's not [laughter]
+231,672.8789999999999,674.789,Ellie,what's the hardest thing about being a parent
+232,674.9789999999999,675.799,Participant,um
+233,679.5139999999999,681.174,Participant,i think decision making
+234,683.22,684.76,Ellie,can you give me an example of that
+235,687.875,690.78,Participant,well some of the things that he's asked to
+236,691.96,693.71,Participant,like i'm not into tattoos
+237,694.1,696.89,Participant,i don't like tattoos and and he does
+238,695.45,696.06,Ellie,mhm
+239,698.46,699.64,Participant,and
+240,704.845,706.625,Participant,well there's a lot of different things
+241,708.26,708.87,Ellie,okay
+242,710.02,711.99,Ellie,what's the best thing about being a parent
+243,713.99,716.7,Participant,the best thing about being a parent is giving life
+244,717.32,719.65,Participant,to my son [laughter]
+245,720.88,725.775,Participant,and seeing them grow up in joy in their lives is going on it's a good thing
+246,726.415,727.235,Ellie,awesome
+247,730.02,731.42,Ellie,is there anything you regret
+248,732.495,733.105,Participant,no
+249,734.695,737.645,Ellie,what advice would you give yourself ten or twenty years ago
+250,739.505,740.035,Participant,god
+251,742.515,744.465,Participant,what advice would i give myself
+252,746.325,747.425,Participant,i don't really know
+253,750.81,751.85,Participant,i really don't know
+254,752.825,753.485,Ellie,okay
+255,754.63,757.05,Ellie,what's one of your most memorable experiences
+256,757.065,758.185,Participant,as far as what
+257,759.57,760.82,Ellie,whatever comes to your mind
+258,761.15,762.55,Participant,my memorable experience
+259,767.15,770.235,Participant,i i could say when graduating it was a good experience
+260,770.81,771.41,Ellie,really
+261,771.425,771.895,Participant,yes
+262,772.035,773.695,Ellie,how did you feel in that moment
+263,773.69,774.29,Participant,great
+264,774.525,776.515,Participant,when i graduated great
+265,777.775,779.025,Ellie,how hard is that
+266,780.465,781.875,Participant,to graduate from high school
+267,782.605,783.455,Participant,it wasn't hard
+268,783.275,783.795,Ellie,yes
+269,783.87,784.76,Participant,no it wasn't hard
+270,785.38,786.54,Participant,i enjoyed school
+271,788.255,789.495,Ellie,that's great
+272,793.82,796.4,Ellie,when was the last time you felt really happy
+273,797.485,798.825,Participant,i don't remember
+274,802.84,803.58,Ellie,okay
+275,804.645,807.175,Ellie,okay i think i've asked everything i need to
+276,807.775,809.435,Ellie,thanks for sharing your thoughts with me
+277,809.43,809.82,Participant,mhm
+278,810.55,811.26,Ellie,goodbye
+279,811.33,812.03,Participant,bye

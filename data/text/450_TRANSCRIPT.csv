@@ -1,0 +1,361 @@
+,start_time,stop_time,speaker,value
+0,12.735,13.525,Participant,<synch>
+1,25.535999999999998,47.076,Ellie,IntroV4Confirmation (hi i'm ellie thanks for coming in today i was created to talk to people in a safe and secure environment i'm not a therapist but i'm here to learn about people and would love to learn about you i'll ask a few questions to get us started and please feel free to tell me anything your answers are totally confidential are you ok with this)
+2,45.7,46.16,Participant,okay
+3,47.31,48.66,Participant,i'm okay with that sure
+4,49.41,49.87,Ellie,okay_confirm (okay)
+5,50.979,53.248999999999995,Ellie,how_doingV (so how are you doing today)
+6,53.68,55.83,Participant,i'm doing well reasonably well
+7,56.67,57.31,Ellie,thats_good (that's good)
+8,58.233000000000004,59.553000000000004,Ellie,where_originally (where are you from originally)
+9,59.9,61.89,Participant,i'm from santa monica california
+10,62.606,63.196000000000005,Ellie,really (really)
+11,63.08,63.96,Participant,born and raised
+12,64.815,66.925,Ellie,like_about_LA (what are some things you really like about l_a)
+13,67.53,68.58,Participant,i love the ocean
+14,69.32,71.38,Participant,um i love the hiking
+15,72.04,73.14,Participant,i love
+16,73.795,76.735,Participant,you can have a little bit of every world
+17,77.33,77.75,Participant,here
+18,78.17,80.59,Participant,the ocean the sea the desert
+19,78.53399999999999,79.044,Ellie,mhm (mhm)
+20,81.2,82.23,Participant,the weather's great
+21,83.49,86.46,Participant,i get to wear shorts a lot lot of times out of the year
+22,83.8,84.27,Ellie,yeah3 (yeah)
+23,87.96700000000001,88.867,Ellie,thats_great (that's great)
+24,88.19,88.57,Participant,mhm
+25,90.277,92.62700000000001,Ellie,dont_like_LA (what are some things you don't really like about l_a)
+26,92.51,95.08,Participant,the smog <sigh> the cement
+27,95.66,96.71,Participant,road rage
+28,97.8,98.42,Participant,uh
+29,99.18,100.06,Participant,traffic
+30,102.73,104.89,Participant,um it's a lonely town
+31,106.296,107.32600000000001,Ellie,see_mean (i see what you mean)
+32,108.8,114.98899999999999,Ellie,travel_shoes (i'm sure you can tell by my shoes i'm not much of a world explorer do you travel a lot)
+33,112.755,114.045,Participant,i haven't seen your shoes
+34,114.78,116.1,Participant,well i haven't seen your shoes
+35,117.145,119.125,Participant,but uh i have traveled yes
+36,120.64,122.16,Ellie,travel_changed (what do you enjoy about traveling)
+37,124.02,131.58,Participant,well depends where you're going um i love going to hawaii um i love the beach change of scenery
+38,132.21,133.09,Participant,um
+39,134.64,136.43,Participant,the temperature of the water
+40,137.16,137.74,Participant,uh
+41,138.73,140.04,Participant,different foods
+42,140.8,142.01,Participant,the airports
+43,142.76,143.79,Participant,i love traveling
+44,144.63,146.31,Ellie,travel_trips (i'd love to hear about one of your trips)
+45,147.055,149.345,Participant,um i recently went to europe
+46,149.93,150.95,Participant,i was in belgium
+47,151.57,152.78,Participant,uh for two weeks
+48,153.24,154.31,Participant,and um
+49,154.91,158.14,Participant,oh i ate some great food and saw some <so> family and
+50,158.62,160.67,Participant,visited some museums and
+51,161.72,168.44,Participant,oh and it rained which it doesn't do in california that in los angeles very much and uh i got to take the train and
+52,168.98,170.46,Participant,lots of trains and
+53,171.16,171.51,Participant,uh
+54,172.74,174.0,Participant,public transportation
+55,174.84,176.25,Participant,that was fun for me
+56,177.07,179.92,Participant,that's normal for them but fun <fu> it's fun fun for me
+57,180.475,182.905,Participant,um yeah and i got to see family and
+58,183.49,184.6,Participant,it was very very nice
+59,185.899,187.77900000000002,Ellie,great_situation (that sounds like a great situation)
+60,188.19,188.72,Participant,yes
+61,190.06,190.57,Participant,it was
+62,191.033,195.44299999999998,Ellie,shyoutgoing (do you consider yourself more shy or outgoing)
+63,194.48,195.08,Participant,outgoing
+64,196.935,197.505,Ellie,why2 (why)
+65,198.36,200.57,Participant,um i'm gregarious um
+66,201.1,204.72,Participant,i do well in crowds and groups uh
+67,205.7,207.92,Participant,i am a good public speaker
+68,208.41,209.02,Participant,um
+69,211.14,211.39,Participant,yeah
+70,213.19,214.53,Participant,uh i'm not so shy
+71,213.61700000000002,214.08700000000002,Ellie,uh_huh (uh huh)
+72,215.865,216.855,Participant,i i don't think
+73,218.852,219.312,Ellie,okay_confirm (okay)
+74,220.523,232.593,Ellie,relax_fishtank (sometimes when i'm feeling tense i turn on the fish tank screensaver hey i know it's not hawaii but it's the best i've got what do you do to relax)
+75,232.26,233.12,Participant,i go fishing
+76,235.665,237.205,Ellie,bouts_symptoms (when was the last time that happened)
+77,237.62,238.45,Participant,two days ago
+78,239.797,240.52700000000002,Ellie,nice (nice)
+79,241.27,241.91,Participant,i also meditate <med>
+80,241.673,243.213,Ellie,describe_felt (how did you feel in that moment)
+81,243.25,244.46,Participant,i also meditate
+82,246.195,249.005,Participant,how do i feel in that moment relaxed
+83,250.13,251.26,Participant,at peace
+84,252.805,253.625,Participant,calm
+85,255.558,256.028,Ellie,uh_huh (uh huh)
+86,257.746,259.806,Ellie,control_temper (how are you at controlling your temper)
+87,260.9,262.17,Participant,depends on the situation
+88,264.07099999999997,267.121,Ellie,last_argument (when was the last time you argued with someone and what was it about)
+89,268.77,271.03,Participant,hmm <sigh>
+90,274.58,276.63,Participant,i argued with
+91,277.84,280.22,Participant,the los angeles parking people
+92,280.875,287.815,Participant,over a ticket  that i got that i didn't agree with and has morphed into a horrible situation
+93,288.688,290.278,Participant,and i
+94,291.58,293.29,Participant,ended the conversation with <wit>
+95,294.41,296.85,Participant,accepting the situation as it was and
+96,297.981,302.455,Participant,not really xxx wanting to deal with it sort of like fuck you
+97,304.279,305.119,Ellie,that_sucks (that sucks)
+98,304.81,306.681,Participant,<laughter> no it was good
+99,309.80400000000003,313.58099999999996,Ellie,situation_handled (tell me about a situation that you wish you had handled differently)
+100,313.93,319.2,Participant,oh my gosh um the sale of my business i wish i would've handled that differently
+101,320.01,325.16,Participant,um i didn't have to really sell the business but i got scared and i sold it and
+102,325.98400000000004,328.574,Participant,i could've handled it in a much different way
+103,329.62699999999995,331.05699999999996,Ellie,change_directions (what made you decide to do that)
+104,332.255,332.785,Participant,fear
+105,336.374,337.534,Ellie,tell_about_that (can you tell me about that)
+106,338.32,339.1,Participant,um
+107,341.843,346.723,Participant,i was afraid of mounting debts i was afraid of
+108,348.59,353.32,Participant,the economy wasn't good this two thousand seven two thousand eight i was
+109,354.095,358.655,Participant,um not thinking clearly i was afraid of uh mounting debts
+110,359.515,361.475,Participant,i was afraid of um
+111,362.375,366.705,Participant,being sued by employees i was afraid of uh
+112,367.836,372.436,Participant,yeah not having enough money i was afraid to be embarrassed
+113,373.07,374.527,Participant,i was
+114,375.39,376.9,Participant,embarrassed you know for
+115,377.59,378.51,Participant,running out of money
+116,379.14,380.272,Participant,um <sigh>
+117,381.69,385.62699999999995,Participant,yeah i would've handled that much different knowing what i know today
+118,386.713,388.06300000000005,Ellie,been_hard (that sounds really hard)
+119,388.592,389.212,Participant,it was
+120,388.99699999999996,390.86699999999996,Ellie,avoid (could you have done anything to avoid it)
+121,391.69,393.981,Participant,yes i could've i could have
+122,394.65,397.28,Participant,downsized i could have
+123,398.39,403.963,Participant,downsized sold cars got rid of cars uh i
+124,405.04,406.881,Participant,could've cut hours
+125,407.33,408.64,Participant,i could have
+126,409.34,410.57,Participant,reduced my expenses
+127,411.33,411.95,Participant,and
+128,412.409,416.095,Participant,sat tight with it and not and just worked through it and not
+129,417.045,418.56300000000005,Participant,have reacted out of fear
+130,419.67400000000004,420.11400000000003,Ellie,isee_downer (i see)
+131,421.106,422.246,Ellie,study (what did you study at school)
+132,423.35900000000004,424.199,Participant,xxx uh when
+133,426.843,428.043,Ellie,mind (whatever comes to your mind)
+134,428.809,436.145,Participant,um i got my bachelor's degree in political science from u_c_l_a and i just finished a master's degree in education
+135,436.711,437.45099999999996,Participant,scrubbed_entry
+136,436.901,437.801,Ellie,thats_great (that's great)
+137,438.037,438.417,Participant,mhm
+138,439.774,440.974,Ellie,dream_job (what's your dream job)
+139,441.18699999999995,442.477,Participant,my dream job
+140,446.12199999999996,447.56199999999995,Participant,my dream job
+141,448.909,449.76099999999997,Participant,is
+142,451.736,454.954,Participant,to not work that's my dream job <laughter>
+143,455.025,455.825,Ellie,wild_laughter3 ((laughter))
+144,456.15,457.04,Participant,to not work
+145,457.681,460.594,Participant,um to be of service to people to
+146,462.772,465.394,Participant,you know uh <sigh> to um
+147,470.37199999999996,472.726,Participant,wear casual clothes uh
+148,473.31800000000004,476.881,Participant,not have to be at a particular place at a particular time
+149,477.881,478.50199999999995,Participant,uh
+150,480.654,482.93699999999995,Participant,to have time to enjoy
+151,483.645,487.074,Participant,you know the one the things that i like to do like fishing and hiking
+152,487.68800000000005,490.228,Participant,being with my nephews being with kids
+153,490.94800000000004,491.908,Participant,um
+154,493.186,494.846,Participant,yeah and not having to work
+155,495.98199999999997,496.93199999999996,Ellie,understand (i understand)
+156,498.185,500.88300000000004,Ellie,family_relationship (tell me about your relationship with your family)
+157,501.60900000000004,507.64599999999996,Participant,well um relationship with family okay so who's alive today is my mom
+158,508.4,510.87300000000005,Participant,my father died when i was sixteen
+159,511.36800000000005,517.0880000000001,Participant,my stepfather died three years ago so my mom's alive we have a good relationship she's like
+160,517.918,523.867,Participant,and it took a lot of work it took years you know but she's a my friend <f> we're friends you know we do stuff together
+161,524.694,531.566,Participant,um my sister she lives a half a block away from me my sister lives a block away from me she's got five kids and a husband and
+162,532.356,541.951,Participant,a family to contend with and my <m> my sister and i don't get to spend a lot of time together anymore she's got a life <l> her a life you know she's busy life
+163,542.7280000000001,543.3480000000001,Participant,um
+164,544.154,548.852,Participant,the rest of my family is uh lives in belgium who i went to go see uh
+165,549.5790000000001,556.619,Participant,and um and that's all the family that i have i have an aunt that is very um i'm estranged to
+166,557.047,559.747,Participant,and she lives in northern california and we never talk
+167,562.521,563.091,Ellie,why2 (why)
+168,564.308,566.738,Participant,because um she uh
+169,568.609,571.559,Participant,she ripped off the family estate
+170,572.1,574.9490000000001,Participant,my grandfather <grandf> my grandparents' estate
+171,575.488,576.068,Participant,she
+172,576.727,579.562,Participant,she took all the money and all the stuff and
+173,580.428,583.038,Participant,and left her grandkids and her
+174,583.88,586.6,Participant,and my you know and so uh
+175,587.118,588.554,Participant,her sister and
+176,589.151,589.411,Participant,my
+177,590.563,596.822,Participant,my grandmother's daughter and grandkids and great-grandkids got zero
+178,598.015,601.525,Participant,and it was a few <f> few few million dollars
+179,598.3290000000001,599.619,Ellie,oh_my_gosh (oh my gosh)
+180,602.19,604.39,Participant,mhm so we don't talk
+181,606.117,607.057,Ellie,makes_sense (that makes sense)
+182,607.127,608.809,Participant,i don't talk we don't talk
+183,609.763,610.745,Participant,and it's sad
+184,610.116,612.446,Ellie,influence_positive (who's someone that's been a positive influence in your life)
+185,612.627,614.115,Participant,xxx excuse me can you repeat that
+186,614.895,617.225,Ellie,influence_positive (who's someone that's been a positive influence in your life)
+187,617.4209999999999,623.244,Participant,wow positive <posi> my father was a positive influence he was a really genuine man
+188,623.706,627.706,Participant,honest uh funny um handsome
+189,628.227,637.018,Participant,um i have a business owner a business man that i worked for who was a extremely positive influence at least in my professional life
+190,637.561,639.521,Participant,um i've had uh
+191,640.6,645.33,Participant,a counselor at u_c_l_a who was um totally i think of her
+192,646.4630000000001,647.109,Participant,often
+193,648.136,650.47,Participant,and some of the little things that she'd said to me
+194,651.309,654.418,Participant,keep me going um <sigh> in my life now
+195,655.577,656.117,Ellie,like_what (like what)
+196,657.268,658.4780000000001,Participant,trust the process
+197,660.7669999999999,662.44,Participant,she told me to trust the process
+198,663.029,668.8889999999999,Participant,and when people are having trouble and i'm having trouble i take a step back and say
+199,669.518,673.914,Participant,you know just trust the process it it it all works out the way it's supposed to be
+200,674.997,677.097,Ellie,trade_offs (there are always trade-offs in life aren't there)
+201,676.909,678.465,Participant,mhm and there's one more
+202,679.0360000000001,681.0089999999999,Participant,positive influence that i knew in hawaii
+203,681.475,682.675,Participant,that taught me um
+204,684.454,687.953,Participant,a friend of mine that uh lives on kauai that taught me uh
+205,689.127,692.7280000000001,Participant,how to enjoy nature and taught me how to fish and
+206,693.4580000000001,697.1210000000001,Participant,and i i love her a lot a great positive influence
+207,697.6289999999999,698.529,Ellie,thats_great (that's great)
+208,697.69,699.398,Participant,healthy healthy influence
+209,700.716,701.2260000000001,Ellie,mhm (mhm)
+210,703.748,706.188,Ellie,easy_sleep (how easy is it for you to get a good night's sleep)
+211,707.3,708.09,Participant,it's not
+212,709.683,710.8430000000001,Ellie,tell_about_that (can you tell me about that)
+213,710.8580000000001,712.288,Participant,i have back problems
+214,712.812,714.7919999999999,Participant,so it's hard to sleep at night
+215,715.581,718.8,Participant,uh and i wake up in the middle of the night sort of
+216,719.818,722.0269999999999,Participant,uh stretching and
+217,722.73,729.436,Participant,um straightening out my back i have a back issue that sometimes more often than not uh
+218,730.936,732.318,Participant,keeps me from sleeping good
+219,733.654,734.7239999999999,Ellie,sorry_hear (i'm sorry to hear that)
+220,734.545,736.0260000000001,Participant,that's okay i'm dealing with it
+221,737.6519999999999,739.0319999999999,Ellie,feel_lately (how have you been feeling lately)
+222,739.909,747.0930000000001,Participant,um i'm a little depressed uh i've been a little depressed i haven't been working as much and um
+223,748.275,755.066,Participant,i um you know i have pain in the mornings and in the evening <eveni> i have pain thorughout the day in my from my with back
+224,755.6310000000001,761.0210000000001,Participant,and it uh is a little depressing you know i get depressed also um
+225,761.832,763.2819999999999,Participant,you know just thinking about
+226,763.9910000000001,766.201,Participant,my business that i sold and
+227,766.89,771.034,Participant,you know where i would've been if i hadn't have done that and
+228,772.6239999999999,773.064,Ellie,yeah_downer (yeah)
+229,772.8960000000001,775.4760000000001,Participant,a a general feeling of um
+230,777.227,781.987,Participant,i've been a little depressed over the past uh couple of years actually
+231,782.942,784.752,Ellie,depression_diagnosed (have you been diagnosed with depression)
+232,784.709,785.419,Participant,yes
+233,786.091,788.0110000000001,Ellie,when_diagnosed (how long ago were you diagnosed)
+234,788.28,796.62,Participant,um well i've been diagnosed many many years ago and i guess depression stays with you although it gets treated
+235,797.2360000000001,797.727,Participant,um
+236,798.2719999999999,801.8839999999999,Participant,and uh i was diagnosed about two years ago
+237,802.672,805.809,Participant,uh i think i don't know it asked me that on the questionnaire as well
+238,806.3489999999999,808.1489999999999,Participant,and uh and i sought treatment
+239,808.745,813.24,Participant,for it and then uh my insurance ran out
+240,813.909,815.602,Participant,and the prescriptions
+241,816.105,822.965,Participant,uh i couldn't put uh do my prescriptions anymore but now i'm back on uh medication <med> medication and
+242,823.836,826.5,Participant,you know so i take medication for my depression
+243,827.829,829.279,Ellie,therapy_useful (do you feel like therapy is useful)
+244,830.716,832.3660000000001,Participant,therapy absolutely
+245,834.7810000000001,835.581,Participant,i love therapy
+246,835.0880000000001,837.938,Ellie,therapy_changes (what sort of changes have you noticed since you've been going to therapy)
+247,838.2719999999999,842.945,Participant,wow that's huge um confidence in self uh
+248,844.9,849.4169999999999,Participant,confidence in myself um confidence in my decision-making
+249,850.0089999999999,851.927,Participant,a general feeling of
+250,853.193,855.7130000000001,Participant,overall content uh
+251,856.454,857.827,Participant,a sounding board
+252,858.372,861.5089999999999,Participant,you know when i have stuff that's bothering me that i can't
+253,861.992,865.572,Participant,go to the i i feel that i can't go to the person with
+254,866.057,866.587,Ellie,yeah2 (yeah)
+255,866.073,867.053,Participant,i um
+256,868.063,869.618,Participant,can go to my therapist and
+257,870.9060000000001,884.39,Participant,a lot of times the issue is resolved there it wasn't a big issue or i worked through it or the therapist through the therapist allowed me to look at a different way of looking at the situation
+258,885.0880000000001,885.5980000000001,Ellie,mhm (mhm)
+259,885.2180000000001,888.288,Participant,and in that way i find therapy to be
+260,888.959,890.3589999999999,Participant,invaluable actually
+261,892.185,893.085,Ellie,thats_great (that's great)
+262,894.459,896.4989999999999,Ellie,ptsd_diagnosed (have you ever been diagnosed with p_t_s_d)
+263,897.7539999999999,899.034,Participant,i believe so
+264,899.4939999999999,901.3639999999999,Participant,uh yes i was
+265,902.945,904.865,Ellie,when_diagnosed (how long ago were you diagnosed)
+266,903.072,903.829,Participant,i believe it was
+267,904.336,908.9810000000001,Participant,i think it was told to me by a psychiatrist that that's what i was that's what i was having
+268,909.445,911.3380000000001,Participant,and this was within the last
+269,912.09,914.1,Participant,five years i think it was
+270,916.0269999999999,917.2360000000001,Participant,looking back now
+271,918.709,923.7280000000001,Participant,what are we two thousand thirteen it was two thousand nine
+272,924.418,925.9810000000001,Participant,so four years ago
+273,926.681,927.831,Ellie,symptoms_what (what were your symptoms)
+274,928.666,935.1460000000001,Participant,not able to deal like shell shocked not able to deal with anything eh irritable on the phone uh i mean just
+275,935.7360000000001,936.745,Participant,uh just
+276,937.745,944.299,Participant,anything would get me to fly off the handle and um just uh not able just shell shocked and
+277,944.945,952.687,Participant,not and hiding at my in my house not opening mail <m> mail not being able to concentrate not being able to deal with
+278,953.794,960.3839999999999,Participant,with things that were that i felt were well that were bombarding me i felt overcomed <o> overcomed
+279,961.172,961.972,Participant,and um
+280,962.472,966.6089999999999,Participant,the psychiatrist said that it was post-traumatic stress disorder but
+281,967.3539999999999,973.1569999999999,Participant,um and i was given some medication which i stayed on for a year or so
+282,973.8389999999999,977.4889999999999,Participant,uh or so and i don't know through
+283,978.0269999999999,981.9019999999999,Participant,psychiatry and therapist and medication
+284,982.49,985.238,Participant,um i was able to come out of my shell a little bit
+285,986.199,986.659,Ellie,okay_confirm (okay)
+286,987.9689999999999,990.5160000000001,Ellie,happy_lasttime (tell me about the last time you felt really happy)
+287,992.5,993.53,Participant,hmm
+288,997.3,1000.072,Participant,about a week ago i was on a hike
+289,1000.7539999999999,1004.9839999999999,Participant,eh up in malibu and uh at this beautiful labyrinth
+290,1005.7,1011.8539999999999,Participant,that looked over the pacific ocean and we i was with a friend and we were having lunch
+291,1012.7810000000001,1014.715,Participant,and i laid down on the grass
+292,1015.2180000000001,1016.318,Participant,and took a nap
+293,1016.834,1021.4939999999999,Participant,and i felt content i was happy at that moment at that
+294,1022.148,1022.658,Participant,moment
+295,1023.195,1025.105,Participant,that time about a week ago
+296,1026.489,1028.1789999999999,Ellie,BF_describe (how would your best friend describe you)
+297,1029.382,1029.822,Participant,hmm
+298,1031.796,1033.496,Participant,honest sincere
+299,1035.475,1036.285,Participant,smart
+300,1037.99,1038.83,Participant,um
+301,1042.011,1042.851,Participant,caring
+302,1043.8,1045.004,Participant,um
+303,1048.475,1048.802,Participant,<sniffle>
+304,1049.609,1050.2,Participant,smart
+305,1050.875,1051.385,Ellie,mhm (mhm)
+306,1054.271,1056.861,Ellie,self_change (what are some things you wish you could change about yourself)
+307,1059.0410000000002,1060.731,Participant,um <sigh>
+308,1066.756,1067.586,Participant,good question
+309,1069.5810000000001,1070.937,Participant,i'd have to think about that
+310,1073.594,1074.0539999999999,Ellie,okay_confirm (okay)
+311,1075.175,1076.245,Ellie,regret (is there anything you regret)
+312,1077.815,1082.725,Participant,uh yeah i have regrets in life you know everything works out
+313,1083.49,1084.719,Participant,so um
+314,1085.516,1090.356,Participant,you know if i could change the past i would've never dropped out of school
+315,1091.0,1096.3,Participant,when i did a long time ago i mean i've since gone back and completed lots of stuff
+316,1097.2089999999998,1100.827,Participant,um i probably would've gone into the military
+317,1101.454,1104.263,Participant,i think i was going to do that in my early twenties
+318,1104.954,1106.36,Participant,i'm fifty five now
+319,1107.037,1109.607,Participant,um i sort of regret not doing that
+320,1110.249,1112.2089999999998,Participant,um at that time
+321,1113.88,1116.19,Participant,um i regret uh
+322,1118.4360000000001,1120.0339999999999,Participant,selling my business
+323,1121.517,1122.627,Participant,i regret
+324,1124.381,1130.781,Participant,and of course i can't control this but i regret that my father died when i was so young and
+325,1132.963,1136.432,Participant,he never really got to know me and i never really got to know him
+326,1137.634,1139.3339999999998,Participant,i regret uh
+327,1141.7269999999999,1143.5810000000001,Participant,i regret not seeing
+328,1144.945,1147.6580000000001,Participant,my grandmother enough before she'd passed away
+329,1149.052,1150.682,Participant,i regret uh
+330,1155.347,1162.547,Participant,i mean those are the things that i can think of right now not putting away for retirement i regret when i had the money to do it
+331,1163.515,1164.655,Participant,um
+332,1167.157,1167.577,Participant,yeah
+333,1168.22,1168.81,Participant,i mean
+334,1169.59,1171.49,Participant,just here that's what i would say
+335,1171.627,1172.067,Ellie,yeah_downer (yeah)
+336,1172.911,1175.861,Ellie,advice_back (what advice would you give to yourself ten or twenty years ago)
+337,1177.0810000000001,1177.761,Participant,stick with it
+338,1179.381,1183.974,Participant,just stick with it because in order to get out you have to go through
+339,1184.902,1185.562,Participant,and
+340,1186.845,1192.9180000000001,Participant,i it when it comes to fear or flight i get the fear and i flight
+341,1193.357,1197.4769999999999,Participant,so sometimes you just have to sit in fear and then
+342,1198.49,1199.754,Participant,everything works out
+343,1200.36,1200.83,Ellie,mm (mm)
+344,1202.777,1205.077,Ellie,Ellie17Dec2012_08 (what are you most proud of in your life)
+345,1205.663,1206.318,Participant,wow
+346,1211.427,1216.021,Participant,i'm most proud that i <sigh> have remained
+347,1217.2839999999999,1218.004,Participant,genuine
+348,1218.57,1222.782,Participant,um i'm most proud of
+349,1225.975,1227.545,Participant,being who i am
+350,1228.5539999999999,1233.528,Participant,and being basically comfortable with that and i'm proud of that i haven't changed
+351,1235.09,1239.93,Participant,to the world <wor> to the world you know for the world i haven't changed i've stayed
+352,1241.235,1242.315,Participant,mm who i am
+353,1243.795,1245.155,Ellie,good_hear (that's so good to hear)
+354,1245.181,1245.721,Participant,thank you
+355,1246.748,1249.188,Ellie,asked_everything (okay i think i have asked everything i need to)
+356,1249.941,1251.381,Ellie,appreciate_open (thanks for sharing your thoughts with me)
+357,1251.622,1252.122,Participant,thank you
+358,1252.6019999999999,1253.212,Ellie,bye (goodbye)
+359,1253.336,1253.785,Participant,bye

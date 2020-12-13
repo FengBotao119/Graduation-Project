@@ -1,0 +1,220 @@
+,start_time,stop_time,speaker,value
+0,22.09,22.92,Participant,<synch>
+1,38.365,59.905,Ellie,IntroV4Confirmation (hi i'm ellie thanks for coming in today i was created to talk to people in a safe and secure environment i'm not a therapist but i'm here to learn about people and would love to learn about you i'll ask a few questions to get us started and please feel free to tell me anything your answers are totally confidential are you ok with this)
+2,59.82,60.64,Participant,mm yes
+3,61.441,61.901,Ellie,okay_confirm (okay)
+4,62.972,65.242,Ellie,how_doingV (so how are you doing today)
+5,65.33,66.69,Participant,mm i'm doing pretty good
+6,67.553,68.193,Ellie,thats_good (that's good)
+7,68.90899999999999,70.229,Ellie,where_originally (where are you from originally)
+8,70.38,72.74,Participant,uh i was born in los angeles
+9,73.429,74.01899999999999,Ellie,really (really)
+10,74.345,74.795,Participant,mhm
+11,75.5,77.61,Ellie,like_about_LA (what are some things you really like about l_a)
+12,78.405,87.555,Participant,um i like the diversity of the city all the attractions and things that you can see um the food restaurants
+13,88.535,89.045,Ellie,mhm (mhm)
+14,89.26,89.81,Participant,things like that
+15,90.425,92.775,Ellie,dont_like_LA (what are some things you don't really like about l_a)
+16,93.21,93.99,Participant,traffic
+17,94.5,95.29,Participant,freeways
+18,95.93,96.61,Participant,crime
+19,98.137,99.167,Ellie,see_mean (i see what you mean)
+20,100.443,106.90700000000001,Ellie,travel_shoes (i'm sure you can tell by my shoes i'm not much of a world explorer do you travel a lot)
+21,100.45,100.69,Participant,mm
+22,106.11,107.11,Participant,uh yes i do
+23,108.73299999999999,109.14299999999999,Ellie,cool3 (cool)
+24,109.96600000000001,111.486,Ellie,travel_changed (what do you enjoy about traveling)
+25,110.165,110.435,Participant,mhm
+26,111.575,120.65,Participant,um seeing new places or going back and seeing same places and just enjoying relaxing getting away from l_a
+27,121.555,123.235,Ellie,travel_trips (i'd love to hear about one of your trips)
+28,123.67,126.79,Participant,uh well let's see last trip
+29,127.48,135.63,Participant,i made was up to the central coast up in uh cambria and pismo beach area and um solvang santa ynez
+30,137.19799999999998,137.928,Ellie,nice (nice)
+31,138.3,138.62,Participant,uh huh
+32,139.44,139.89,Participant,yeah
+33,139.638,141.998,Ellie,memorableB (what's one of your most memorable experiences)
+34,142.78,149.76,Participant,probably uh when i got to study abroad in madrid spain when i was a student at u_c_l_a
+35,150.595,151.165,Ellie,wow (wow)
+36,152.505,153.755,Participant,uh huh in terms of travel
+37,153.09,154.25,Ellie,tell_about_that (can you tell me about that)
+38,154.5,165.74,Participant,uh yeah i was um i participated in the uh education abroad program at u_c_l_a where you go live in another country to learn the language and you live there for a year
+39,166.2,168.68,Participant,at the university <univers> and you study at the university
+40,169.25,176.68,Participant,and uh it it was just a memorable year something <someth> an experience that i would never <laughter> forget
+41,177.726,179.08599999999998,Ellie,good_hear (that's so good to hear)
+42,180.405,180.865,Participant,thanks
+43,181.547,185.957,Ellie,shyoutgoing (do you consider yourself more shy or outgoing)
+44,185.82,190.6,Participant,probably more shy but uh sometimes i could be outgoing
+45,192.173,192.713,Ellie,like_what (like what)
+46,193.34,205.54,Participant,um i'm more shy in terms of you know i it takes me it takes time <t> time for me to get to know people i mean i'm not a real party person i don't like to go to parties and meet people and things like that
+47,206.14,209.81,Participant,but if i if i'm among friends and things like that then i can be pretty outgoing
+48,206.364,206.87400000000002,Ellie,mhm (mhm)
+49,210.99200000000002,211.452,Ellie,okay_confirm (okay)
+50,211.01,211.93,Participant,with people i know
+51,213.673,225.43200000000002,Ellie,relax_fishtank (sometimes when i'm feeling tense i turn on the fish tank screensaver hey i know it's not hawaii but it's the best i've got what do you do to relax)
+52,219.05,219.33,Participant,<laughter>
+53,223.205,223.325,Participant,<laughter>
+54,223.94,224.14,Participant,<laughter>
+55,225.59,227.38,Participant,um drink wine
+56,228.45,229.17,Participant,um
+57,229.8,232.17,Participant,yeah drink wine maybe listen to some uh
+58,233.08,233.91,Participant,nice music
+59,235.585,236.045,Ellie,okay_confirm (okay)
+60,237.22400000000002,239.28400000000002,Ellie,control_temper (how are you at controlling your temper)
+61,241.01,244.31,Participant,pretty good i can i'm pretty good at controlling my emotions
+62,245.137,245.77700000000002,Ellie,thats_good (that's good)
+63,247.09900000000002,250.149,Ellie,last_argument (when was the last time you argued with someone and what was it about)
+64,251.425,254.64,Participant,oh gosh um
+65,255.52,259.53,Participant,i wouldn't say it was a real argument it was more like a what just a
+66,259.99,261.24,Participant,discussion maybe
+67,261.71,262.08,Participant,about
+68,263.045,264.375,Participant,finances maybe
+69,266.23,266.66,Participant,money
+70,266.612,268.152,Ellie,describe_felt (how did you feel in that moment)
+71,268.79,269.78,Participant,um just
+72,270.365,272.87,Participant,oh just a little irritated <laughter>
+73,273.935,275.715,Participant,but um not really
+74,276.57,278.33,Participant,not really strong emotional
+75,279.652,280.16200000000003,Ellie,mhm (mhm)
+76,281.434,285.224,Ellie,situation_handled (tell me about a situation that you wish you had handled differently)
+77,287.965,288.705,Participant,uh
+78,290.45,292.95,Participant,wow gosh i <laughter>
+79,294.08,298.25,Participant,i can't think of anything at the moment so uh let's uh skip that one
+80,299.492,299.952,Ellie,okay_confirm (okay)
+81,302.147,304.163,Ellie,feelguilty (what's something you feel guilty about)
+82,306.27,306.88,Participant,um
+83,307.81,309.7,Participant,mm maybe uh
+84,310.73,314.23,Participant,eating eating more junk food than i admit to
+85,316.77,317.37,Participant,or
+86,317.128,320.728,Ellie,hard_decisionB (tell me about the hardest decision you've ever had to make)
+87,321.65,324.41,Participant,the hardest decision i ever had to make
+88,325.49,326.31,Participant,uh
+89,327.18,328.19,Participant,maybe uh
+90,330.21,331.83,Participant,buying a home <h> buying a home
+91,332.57,334.01,Participant,or remodeling the home
+92,335.04,335.93,Participant,spending money for
+93,335.272,336.702,Ellie,change_directions (what made you decide to do that)
+94,337.06,337.43,Participant,uh
+95,337.087,338.517,Ellie,change_directions (what made you decide to do that)
+96,338.91,340.81,Participant,i it was um
+97,341.74,350.41,Participant,i felt it was time to move on with my life and uh to uh buy a place for myself so i could be self-sufficient and independent
+98,352.545,353.545,Ellie,happy_didthat (are you happy you did that)
+99,352.95,353.13,Participant,xxx
+100,354.2,355.62,Participant,yes very happy
+101,356.81699999999995,357.717,Ellie,thats_great (that's great)
+102,359.82,360.21,Participant,thank you
+103,361.351,365.47,Ellie,memory_erase (tell me about an event or something that you wish you could erase from your memory)
+104,367.53,370.88,Participant,uh an event i could erase from my uh
+105,371.515,381.655,Participant,when i um yeah when i was a student <stud> when i was a student teaching for a year trying to get my teaching credential and discovered i never enjoyed it
+106,381.97,385.44,Participant,i wanna erase that whole year nineteen eighty three
+107,386.97,387.54,Ellie,why2 (why)
+108,388.47,398.33,Participant,uh it just brought back horrible <laughter> it just brings back <laughter> horrible memories of uh what i went through when i was student teaching and uh discovered that that
+109,398.77,401.22,Participant,teaching k twelve was not was <w> not for me
+110,403.836,404.296,Ellie,okay_confirm (okay)
+111,406.04,407.18,Ellie,study (what did you study at school)
+112,407.7,410.93,Participant,i studied <stud> my major was spanish and linguistics
+113,413.94,415.37,Ellie,change_directions (what made you decide to do that)
+114,415.93,426.03,Participant,i was very good at foreign languages and i thought um i enjoyed taking them and i was just having a good time taking foreign language and uh
+115,426.64,431.34,Participant,i was getting good grades so i thought maybe this is what i should go into
+116,432.01,433.11,Participant,foreign languages
+117,433.86300000000006,435.12300000000005,Ellie,still_working_on_X (are you still working in that)
+118,435.52,447.17,Participant,uh i was teaching <teachi> i was an adult ed teacher teaching english as a second language for thirty years and i just recently uh decided to uh retire myself
+119,450.02099999999996,450.481,Ellie,okay_confirm (okay)
+120,451.978,454.694,Ellie,family_relationship (tell me about your relationship with your family)
+121,454.81,455.37,Participant,um
+122,455.73,465.14,Participant,i have a pretty good relationship with my family with my mother and my sisters my father passed away in two thousand eight and um
+123,466.06,470.59,Participant,uh my relationship with my father wasn't as good as with my other family members
+124,471.48,471.99,Ellie,mhm (mhm)
+125,473.11,473.5,Participant,yeah
+126,474.445,479.355,Participant,but uh on the xxx on the whole um we have pretty good relation with the rest of my family now
+127,480.45300000000003,480.913,Ellie,okay_confirm (okay)
+128,481.98,484.42,Ellie,easy_sleep (how easy is it for you to get a good night's sleep)
+129,484.8,487.46,Participant,um pretty easy i don't have any problems
+130,489.12300000000005,490.903,Ellie,sleep_affects (what are you like when you don't sleep well)
+131,491.97,499.65,Participant,um if i don't sleep well i'm i may be moving around in the bed and you know um
+132,500.38,503.61,Participant,messing up the sheets but that doesn't happen too often
+133,505.045,506.425,Ellie,feel_lately (how have you been feeling lately)
+134,507.18,512.64,Participant,oh pretty good i think i've been feeling pretty good no major health problems or anything
+135,514.3530000000001,517.523,Ellie,behavior_changes (have you noticed any changes in your behavior or thoughts lately)
+136,518.29,518.8,Participant,no
+137,520.2180000000001,522.258,Ellie,ptsd_diagnosed (have you ever been diagnosed with p_t_s_d)
+138,522.33,522.9,Participant,no
+139,523.668,525.4780000000001,Ellie,depression_diagnosed (have you been diagnosed with depression)
+140,525.44,526.29,Participant,no
+141,527.262,529.809,Ellie,happy_lasttime (tell me about the last time you felt really happy)
+142,530.96,533.97,Participant,uh last time i was really happy
+143,535.53,544.69,Participant,uh probably uh when spring break came around it was uh vacation time and it was time to uh <laughter> go on our trip
+144,547.335,548.495,Ellie,tell_about_that (can you tell me about that)
+145,548.85,557.97,Participant,uh yeah it was um it was a week trip up to central coast to uh cambria and pismo beach and santa ynez
+146,558.61,566.34,Participant,it was just a nice getaway relaxing on the uh <laughter> hotel lawn and garden drinking wine
+147,566.995,571.055,Participant,and uh enjoying different sights and eating good food and <laughter>
+148,571.6,575.77,Participant,and buying wine to replenish our dwindling supply at home
+149,575.842,576.6419999999999,Ellie,wild_laughter3 ((laughter))
+150,578.0369999999999,578.937,Ellie,thats_great (that's great)
+151,579.63,580.41,Participant,<laughter> thanks
+152,581.238,582.928,Ellie,BF_describe (how would your best friend describe you)
+153,583.52,587.22,Participant,uh i think she would describe me as um
+154,588.0,588.3,Participant,eh
+155,588.82,591.41,Participant,kind and sweet and um
+156,592.17,595.85,Participant,motivated and uh just a nice person
+157,599.93,602.84,Ellie,self_change (what are some things you wish you could change about yourself)
+158,603.93,609.55,Participant,oh i'd say sometimes i wouldn't mind being a little more outgoing i guess
+159,610.28,612.31,Participant,i tend to be more reserved
+160,612.77,616.8,Participant,so i wouldn't mind being more outgoing towards strangers and things but
+161,617.635,618.145,Ellie,mhm (mhm)
+162,618.58,619.31,Participant,mm
+163,619.186,624.499,Ellie,feelbadly (tell me about a time when someone made you feel really badly about yourself)
+164,624.85,627.23,Participant,uh really badly about myself
+165,628.1,638.0,Participant,uh let's see probably when i betrayed a confidence with some friends of mine when i uh taped them when i taped them singing christmas carols and i
+166,638.87,645.13,Participant,i played it to some other people and they found out and they really laid a guilt trip on me for doing that
+167,646.253,647.133,Ellie,oh_no (oh no)
+168,647.66,656.33,Participant,yeah but uh it all it all got resolved at the end we all <laughter> we became <beca> we were all <laughter> it was just a bad misunderstanding on my part
+169,656.88,657.93,Participant,but it worked out okay
+170,658.955,659.415,Ellie,okay_confirm (okay)
+171,660.96,661.69,Participant,yeah
+172,661.327,662.3969999999999,Ellie,regret (is there anything you regret)
+173,663.43,665.49,Participant,um probably having
+174,666.03,669.34,Participant,done what i did by <laughter> playing it to other people
+175,671.8389999999999,674.789,Ellie,advice_back (what advice would you give to yourself ten or twenty years ago)
+176,677.22,677.88,Participant,uh
+177,678.4,681.03,Participant,what advice would i give myself
+178,681.74,683.28,Participant,ten or twenty years ago um
+179,684.045,692.225,Participant,uh don't give up just uh keep uh <laughter> keep pursuing what you want and uh never never give up xxx
+180,693.11,694.05,Participant,see it as a
+181,694.87,698.42,Participant,and as a disappointment if nothing <noth> if it doesn't work out
+182,701.783,704.7230000000001,Ellie,Ellie17Dec2012_07 (what would you say are some of your best qualities)
+183,704.85,705.65,Participant,um
+184,706.24,708.36,Participant,i'm a i'm a good listener
+185,708.95,710.62,Participant,um i'm a
+186,711.4,717.23,Participant,i'm a motivated person i'm hardworking i'm conscientious i'm caring
+187,717.82,718.37,Participant,um
+188,719.42,722.37,Participant,i'm generally a pretty happy type person
+189,723.145,723.615,Ellie,uh_huh (uh huh)
+190,725.29,728.54,Ellie,Ellie17Dec2012_10 (tell me about something you did recently that you really enjoyed)
+191,729.875,731.335,Participant,something recently
+192,731.74,733.07,Participant,what i really enjoyed
+193,734.67,735.5,Participant,uh
+194,736.56,740.99,Participant,going to the uh going to the festival of books at u_s_c
+195,741.68,742.35,Participant,this weekend
+196,742.935,743.665,Ellie,nice (nice)
+197,744.9689999999999,746.1289999999999,Ellie,tell_about_that (can you tell me about that)
+198,746.31,755.06,Participant,uh yeah uh the festival of books is a it's a festival where they have all these uh book mm book authors <auth> authors and
+199,755.87,762.92,Participant,they have demonstrations <dem> food demostrations and seminars and all kinds of books available to look at and uh
+200,763.57,766.67,Participant,there's uh lots of food and um
+201,767.33,770.48,Participant,and a lot of uh authors signing books and things
+202,770.85,777.835,Participant,uh it's a great event for <laughter> just to <laughter> get out and and it was nice weather too so it was nice to be out there
+203,771.2639999999999,771.7739999999999,Ellie,mhm (mhm)
+204,777.2639999999999,777.9839999999999,Ellie,awesome (awesome)
+205,778.04,778.56,Participant,mhm
+206,779.29,782.2,Participant,yeah i really enjoyed that especially the food
+207,783.566,784.926,Ellie,good_hear (that's so good to hear)
+208,786.07,786.6,Participant,thanks
+209,787.053,789.3530000000001,Ellie,Ellie17Dec2012_08 (what are you most proud of in your life)
+210,789.73,792.5,Participant,most proud of um
+211,794.12,797.41,Participant,most proud of uh probably uh
+212,797.95,804.59,Participant,being successful in my work uh in my life in my marriage and
+213,805.64,808.83,Participant,just um yeah just basically being happy with myself
+214,811.441,813.8810000000001,Ellie,asked_everything (okay i think i have asked everything i need to)
+215,814.243,815.683,Ellie,appreciate_open (thanks for sharing your thoughts with me)
+216,816.05,817.12,Participant,oh you're welcome
+217,817.752,818.362,Ellie,bye (goodbye)
+218,818.77,819.25,Participant,bye
